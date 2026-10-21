@@ -1,0 +1,68 @@
+NITIDUS - izrada web stanice
+
+-popis oznacenih udarnih proizvoda
+-veze izmedu proizvoda (primjer. dispenser prihvaca vise papira; papir ide u vise dispensera; dispenser M-M papir )
+
+-udarni artikli se prikazuju slikom opisom i vezom prema drugim artiklima
+-sve cijene se biljeze na upit
+-marplast su dispenseri i vezu se s ponudom iz docx
+**sve osim titaniuma
+bijela, stone, carbon,  
+
+
+-naslovna
+ -> navbar (logo, glavni linkovi, search bar, jezici)
+ -> hero (hero-bg, naslov, podnaslov, CTA gumbi)
+ -> udarni proizvodi (interaktivni prikaz, slika sadrzi pinove proizvoda; vise ih je po slici koji pokazuju na proizvode)
+  **grid slika situacija tipa kupatilo sa dispenserom za sapun i papir koji imaju svako svoj pin koji ih oznacava
+  **klikom na pin proizvoda otvara se stranica proizvoda
+  **stranica proizvoda prikazuje njega s opisom i povezanim proizvodom
+  **primjer. dispenser i vise razlicitih papira
+ -> carousel brandova
+ -> dostava, placanje banner CTA
+ -> kontakt sekcija (email forma + telefon i email sa strane)
+ 
+-proizvodi
+ ->[slug]/page.tsx *svaki proizvod
+ **stranica mora imati template page koji ima CTA i vezane proizvode 
+ 
+ 
+ **search bar u navbaru
+  -> pretraga po proizvodima u bazi
+  -> ako ne nade proizvod onda daje opciju CTA javite se ako imate problema s potraga (mozda nije na stranici ali je na skladistu)
+  
+  
+  
+colors:
+#74C054
+#FDBA37
+#3213DA
+
+Opis:
+Nitidus d.o.o. je tvrtka iz Zadra specijalizirana za profesionalno opremanje poslovnih, javnih i ugostiteljskih prostora higijenskim i sanitarnim potrepštinama. Nalazi se na adresi Put Dikla 71, Zadar, a vode ju Niko Marin i Ante Renić.
+
+Osnovne informacije
+
+• Adresa: Put Dikla 71, 23000 Zadar
+• Djelatnost: Nespecijalizirana trgovina na veliko (higijenski i sanitarni materijali, papirnata konfekcija, kemikalije)
+• Vlasnici / Uprava: Niko Marin i Ante Renić
+• Službena web stranica: nitidus.hr
+
+Usluge i ponuda
+
+• Prodaja i brza dostava higijenskog i sanitarnog materijala
+• Redovito održavanje i dopuna zaliha za sanitarne sustave
+• Opremanje škola, vrtića, poslovnih i ugostiteljskih objekata
+Zanima li vas kontakt telefon, ponuda za određeni poslovni prostor ili nešto drugo vezano uz tvrtku Nitidus?
+
+
+PROFIL TVRTKE 
+
+Nitidus je pravo rješenje za poslovanje i nabavku različitih proizvoda koji se dostavljaju na vašu adresu čime olakšavaju i osiguravaju bezbrižno poslovanje u ugostiteljstvu, industriji ili bilo kakvim drugim vrstama poslova u kojima se koristi potrošni materijal. Tvrtka posluje sa širokim asortimanom artikala koji uključuju kategorije proizvoda: 
+    • papirnata konfekcija: toaletni papir, papirnati ručnici (u roli ili listićima), industrijske role, salvete različitih dimenzija i slojeva.
+    • kemijska i dezinfekcijska sredstva: sredstva za čišćenje i dezinfekciju, sapuni te sanitarna galanterija.
+    • dekoracija stola: salvete i drugi proizvodi za estetsko uređenje prostora.
+    • alati za čišćenje: pribor za čišćenje poput metlica, četki, rukavica, radnih odora te raznovrsnih aparata koji nude brže i jednostavnije čišćenje. 
+
+
+
