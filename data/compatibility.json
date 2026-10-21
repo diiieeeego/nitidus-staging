@@ -1,1 +1,237 @@
-[]
+[
+  {
+    "host": "marplast-903-dispenzer-za-slozive-rucnike-750-listica",
+    "fits": "slozivi-rucnici-cc21v",
+    "note": null
+  },
+  {
+    "host": "marplast-903-dispenzer-za-slozive-rucnike-750-listica",
+    "fits": "slozivi-rucnici-cc21vx",
+    "note": null
+  },
+  {
+    "host": "marplast-901-dispenzer-za-slozive-rucnike-450-listica",
+    "fits": "slozivi-rucnici-ccz",
+    "note": null
+  },
+  {
+    "host": "marplast-884-dispenzer-za-rucnike-u-roli-s-automatskim-rezanjem",
+    "fits": "rucnici-u-roli-ccac130",
+    "note": "check – Popis navodi \"CCAC140\" – u ponudi postoji samo CCAC130. Provjeriti i art. 889."
+  },
+  {
+    "host": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi",
+    "fits": "rola-centralno-izvlacenje-ccsp104",
+    "note": "check – Popis navodi \"CCSP105\" – u ponudi je CCSP104 (103,5 m)."
+  },
+  {
+    "host": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi",
+    "fits": "rola-centralno-izvlacenje-ccsp135",
+    "note": "check – Popis navodi \"CCSP105\" – u ponudi je CCSP104 (103,5 m)."
+  },
+  {
+    "host": "marplast-932-dispenzer-za-centralno-izvlacenje-mini",
+    "fits": "toaletni-papir-cctms",
+    "note": null
+  },
+  {
+    "host": "marplast-909-dispenzer-za-toaletni-papir-u-listicima",
+    "fits": "toaletni-papir-cct-9000",
+    "note": null
+  },
+  {
+    "host": "marplast-907-drzac-toaletnog-papira-midi-jumbo",
+    "fits": "toaletni-papir-cctmj",
+    "note": "check – Na marplast.it naziv \"Midi Jumbo\" (bijela varijanta još nosi \"Mini\") – isti artikl."
+  },
+  {
+    "host": "marplast-908-drzac-toaletnog-papira-maxi-jumbo",
+    "fits": "toaletni-papir-cctmxj",
+    "note": null
+  },
+  {
+    "host": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l",
+    "fits": "pjenasti-sapun-za-ruke-za-drzace-0-5-l",
+    "note": null
+  },
+  {
+    "host": "marplast-912-dozator-tekuceg-sapuna-0-5-l",
+    "fits": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+    "note": null
+  },
+  {
+    "host": "marplast-760-dispenzer-za-industrijsku-pastu-3-l",
+    "fits": "industrijska-pasta-za-ruke-3-l",
+    "note": "auto:format – Dispenzer koristi Bag Volflex uložak – provjeriti odgovara li naša industrijska pasta 3 L."
+  },
+  {
+    "host": "marplast-579-pravokutna-kanta-za-smece-8-l",
+    "fits": "marplast-580-poklopac-na-preklop-za-kantu-579",
+    "note": "check – Art. 580 predložen umjesto 883 (883 je držač za pelene, ne poklopac)."
+  },
+  {
+    "host": "marplast-664-zidni-nosac-za-kantu-579",
+    "fits": "marplast-579-pravokutna-kanta-za-smece-8-l",
+    "note": null
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "mop-sprint-plus-basic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "mop-sprint-brush-progressive-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "mop-sprint-plus-tronic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "mop-sprint-white-magic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "mop-sprint-blue-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "mop-clipper-basic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "mop-clipper-tronic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "mop-clipper-white-magic-40-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "scandic-mono-drzac-mopa",
+    "fits": "mop-scandic-mono-white-magic-28-cm",
+    "note": "auto:format – samo držač 28 cm"
+  },
+  {
+    "host": "scandic-mono-drzac-mopa",
+    "fits": "mop-scandic-mono-ceran",
+    "note": "auto:format – mop iste širine kao držač"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "mop-twix-tronic-30-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "mop-twix-white-magic-30-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "mop-twix-ceran-30-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "mop-twix-red-30-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "mop-twix-progressive-30-cm",
+    "note": "auto:format"
+  },
+  {
+    "host": "vermop-drzac-mopa-damp",
+    "fits": "vermop-damp-mop-basic",
+    "note": "auto:format – mop iste širine kao držač"
+  },
+  {
+    "host": "vermop-drzac-moca-profi",
+    "fits": "vermop-moco-aqua-basic",
+    "note": "auto:format"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "aluminijski-stap-140-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "scandic-teleskopski-stap-100-170-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "drzac-mopa-sprint-plus-40-cm",
+    "fits": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "aluminijski-stap-140-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "scandic-teleskopski-stap-100-170-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "drzac-mopa-clipper-40-cm",
+    "fits": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "scandic-mono-drzac-mopa",
+    "fits": "aluminijski-stap-140-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "scandic-mono-drzac-mopa",
+    "fits": "scandic-teleskopski-stap-100-170-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "scandic-mono-drzac-mopa",
+    "fits": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "aluminijski-stap-140-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "scandic-teleskopski-stap-100-170-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "twix-drzac-mopa-30-cm",
+    "fits": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "vermop-drzac-mopa-damp",
+    "fits": "aluminijski-stap-140-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "vermop-drzac-mopa-damp",
+    "fits": "scandic-teleskopski-stap-100-170-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  },
+  {
+    "host": "vermop-drzac-mopa-damp",
+    "fits": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "note": "auto:format – štap Ø 23,5 mm"
+  }
+]

@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "product": "tekuci-sapun-za-ruke-5-l",
+    "related": "tekuci-sapun-za-ruke-za-drzace-0-5-l"
+  },
+  {
+    "product": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+    "related": "tekuci-sapun-za-ruke-5-l"
+  },
+  {
+    "product": "pjenasti-sapun-za-ruke-5-l",
+    "related": "pjenasti-sapun-za-ruke-za-drzace-0-5-l"
+  },
+  {
+    "product": "pjenasti-sapun-za-ruke-za-drzace-0-5-l",
+    "related": "pjenasti-sapun-za-ruke-5-l"
+  },
+  {
+    "product": "shopster-twix-press-kolica",
+    "related": "twix-drzac-mopa-30-cm"
+  },
+  {
+    "product": "twix-drzac-mopa-30-cm",
+    "related": "shopster-twix-press-kolica"
+  },
+  {
+    "product": "vermop-wringboy-kanta-s-ocjedivacem",
+    "related": "drzac-mopa-sprint-plus-40-cm"
+  },
+  {
+    "product": "drzac-mopa-sprint-plus-40-cm",
+    "related": "vermop-wringboy-kanta-s-ocjedivacem"
+  },
+  {
+    "product": "aqua-wet-kolica-za-mop-1-17-l-1-6-l",
+    "related": "drzac-mopa-sprint-plus-40-cm"
+  },
+  {
+    "product": "drzac-mopa-sprint-plus-40-cm",
+    "related": "aqua-wet-kolica-za-mop-1-17-l-1-6-l"
+  },
+  {
+    "product": "scandic-x-adapteri",
+    "related": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm"
+  },
+  {
+    "product": "scandic-teleskopski-stap-s-rotirajucom-kuglom-80-171-cm",
+    "related": "scandic-x-adapteri"
+  },
+  {
+    "product": "scandic-x-adapteri",
+    "related": "scandic-teleskopski-stap-100-170-cm"
+  },
+  {
+    "product": "scandic-teleskopski-stap-100-170-cm",
+    "related": "scandic-x-adapteri"
+  },
+  {
+    "product": "vjestica-pamucna-300-g-bez-drske",
+    "related": "kanta-s-cjedilom-13-l"
+  },
+  {
+    "product": "kanta-s-cjedilom-13-l",
+    "related": "vjestica-pamucna-300-g-bez-drske"
+  },
+  {
+    "product": "vjestica-pamucna-300-g-bez-drske",
+    "related": "drska-drvena-120-cm"
+  },
+  {
+    "product": "drska-drvena-120-cm",
+    "related": "vjestica-pamucna-300-g-bez-drske"
+  },
+  {
+    "product": "metla-industrijska",
+    "related": "drska-drvena-120-cm"
+  },
+  {
+    "product": "drska-drvena-120-cm",
+    "related": "metla-industrijska"
+  },
+  {
+    "product": "metla-allegra",
+    "related": "drska-pvc-120-cm"
+  },
+  {
+    "product": "drska-pvc-120-cm",
+    "related": "metla-allegra"
+  },
+  {
+    "product": "metla-helen",
+    "related": "drska-kromirana-130-cm"
+  },
+  {
+    "product": "drska-kromirana-130-cm",
+    "related": "metla-helen"
+  },
+  {
+    "product": "cetka-za-wc",
+    "related": "marplast-929-zidni-drzac-wc-cetke"
+  },
+  {
+    "product": "marplast-929-zidni-drzac-wc-cetke",
+    "related": "cetka-za-wc"
+  },
+  {
+    "product": "sredstvo-za-dezinfekciju-ruku",
+    "related": "tekuci-sapun-za-ruke-za-drzace-0-5-l"
+  },
+  {
+    "product": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+    "related": "sredstvo-za-dezinfekciju-ruku"
+  },
+  {
+    "product": "mirisi-za-dozatore-250-ml",
+    "related": "osvjezivaci-prostora-300-ml"
+  },
+  {
+    "product": "osvjezivaci-prostora-300-ml",
+    "related": "mirisi-za-dozatore-250-ml"
+  },
+  {
+    "product": "vrece-za-smece-ld-crne",
+    "related": "marplast-740-kanta-za-smece-s-poklopcem-23-l"
+  },
+  {
+    "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l",
+    "related": "vrece-za-smece-ld-crne"
+  }
+]

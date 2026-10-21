@@ -60,6 +60,8 @@ export const productSchema = z.object({
   variants: z.array(variantSchema),
   images: z.array(z.string().startsWith("/")),
   sort: z.number().int(),
+  manufacturer_url: z.url().nullable().optional(),
+  dispenser_type: z.string().nullable().optional(),
 });
 
 export const catalogSchema = z
@@ -88,6 +90,14 @@ export const catalogSchema = z
       }
     }
   });
+
+export const marplastSchema = z.object({
+  products: z.array(productSchema),
+  compatibility: z.array(z.object({ host: slug, fits: slug, note: z.string().nullable() })),
+  /** Catalog SKUs marked discontinued in the Marplast sheet; hidden from the site. */
+  discontinued: z.array(z.object({ sku: z.string(), reason: z.string() })),
+  log: z.array(z.string()),
+});
 
 /** Directed edge: `host` (dispenser / holder / system) accepts `fits` (paper, refill, mop…). */
 export const compatibilitySchema = z.array(

@@ -1,0 +1,1223 @@
+{
+  "products": [
+    {
+      "slug": "marplast-903-dispenzer-za-slozive-rucnike-750-listica",
+      "sku": "903",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za složive ručnike – 750 listića",
+        "en": "Marplast Skin interfold towel dispenser – 750 sheets"
+      },
+      "short_description": {
+        "hr": "Dispenzer za složive papirnate ručnike kapaciteta 750 listića, linija Skin.",
+        "en": "Dispenser for interfolded paper towels with a capacity of 750 sheets, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za složive papirnate ručnike kapaciteta 750 listića, linija Skin."
+        ],
+        "en": [
+          "Dispenser for interfolded paper towels with a capacity of 750 sheets, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "903"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/903-bianco/",
+      "dispenser_type": "towel_vfold",
+      "sort": 1000
+    },
+    {
+      "slug": "marplast-901-dispenzer-za-slozive-rucnike-450-listica",
+      "sku": "901",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za složive ručnike – 450 listića",
+        "en": "Marplast Skin interfold towel dispenser – 450 sheets"
+      },
+      "short_description": {
+        "hr": "Dispenzer za složive papirnate ručnike kapaciteta 450 listića, linija Skin.",
+        "en": "Dispenser for interfolded paper towels with a capacity of 450 sheets, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za složive papirnate ručnike kapaciteta 450 listića, linija Skin."
+        ],
+        "en": [
+          "Dispenser for interfolded paper towels with a capacity of 450 sheets, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "901"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/901-bianco/",
+      "dispenser_type": "towel_zfold",
+      "sort": 1001
+    },
+    {
+      "slug": "marplast-884-dispenzer-za-rucnike-u-roli-s-automatskim-rezanjem",
+      "sku": "884",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za ručnike u roli s automatskim rezanjem",
+        "en": "Marplast Skin automatic-cut roll towel dispenser"
+      },
+      "short_description": {
+        "hr": "Dispenzer za papirnate ručnike u roli s automatskim rezanjem, linija Skin.",
+        "en": "Automatic-cut paper towel roll dispenser, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za papirnate ručnike u roli s automatskim rezanjem, linija Skin."
+        ],
+        "en": [
+          "Automatic-cut paper towel roll dispenser, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "884"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/884-bianco/",
+      "dispenser_type": "towel_autocut",
+      "sort": 1002
+    },
+    {
+      "slug": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi",
+      "sku": "935",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za centralno izvlačenje – Maxi",
+        "en": "Marplast Skin centrefeed dispenser – Maxi"
+      },
+      "short_description": {
+        "hr": "Dispenzer za papirnate role s centralnim izvlačenjem, veličina Maxi, linija Skin.",
+        "en": "Centrefeed paper roll dispenser, Maxi size, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za papirnate role s centralnim izvlačenjem, veličina Maxi, linija Skin."
+        ],
+        "en": [
+          "Centrefeed paper roll dispenser, Maxi size, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "935"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/935-bianco/",
+      "dispenser_type": "centerfeed",
+      "sort": 1003
+    },
+    {
+      "slug": "marplast-932-dispenzer-za-centralno-izvlacenje-mini",
+      "sku": "932",
+      "category": "dispenzeri-toaletni-papir",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za centralno izvlačenje – Mini",
+        "en": "Marplast Skin centrefeed dispenser – Mini"
+      },
+      "short_description": {
+        "hr": "Dispenzer za toaletni papir s centralnim izvlačenjem, veličina Mini, linija Skin.",
+        "en": "Centrefeed toilet tissue dispenser, Mini size, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za toaletni papir s centralnim izvlačenjem, veličina Mini, linija Skin."
+        ],
+        "en": [
+          "Centrefeed toilet tissue dispenser, Mini size, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "932"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/932-bianco/",
+      "dispenser_type": "toilet_centerfeed",
+      "sort": 1004
+    },
+    {
+      "slug": "marplast-909-dispenzer-za-toaletni-papir-u-listicima",
+      "sku": "909",
+      "category": "dispenzeri-toaletni-papir",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za toaletni papir u listićima",
+        "en": "Marplast Skin interfold toilet tissue dispenser"
+      },
+      "short_description": {
+        "hr": "Dispenzer za toaletni papir u listićima, linija Skin.",
+        "en": "Interfold toilet tissue dispenser, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za toaletni papir u listićima, linija Skin."
+        ],
+        "en": [
+          "Interfold toilet tissue dispenser, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "909"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/909-bianco/",
+      "dispenser_type": "toilet_interfold",
+      "sort": 1005
+    },
+    {
+      "slug": "marplast-907-drzac-toaletnog-papira-midi-jumbo",
+      "sku": "907",
+      "category": "dispenzeri-toaletni-papir",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin držač toaletnog papira Midi Jumbo",
+        "en": "Marplast Skin Midi Jumbo toilet roll dispenser"
+      },
+      "short_description": {
+        "hr": "Držač jumbo role toaletnog papira, veličina Midi, linija Skin.",
+        "en": "Jumbo toilet roll dispenser, Midi size, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Držač jumbo role toaletnog papira, veličina Midi, linija Skin."
+        ],
+        "en": [
+          "Jumbo toilet roll dispenser, Midi size, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "907"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/907-bianco/",
+      "dispenser_type": "toilet_jumbo_mini",
+      "sort": 1006
+    },
+    {
+      "slug": "marplast-908-drzac-toaletnog-papira-maxi-jumbo",
+      "sku": "908",
+      "category": "dispenzeri-toaletni-papir",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin držač toaletnog papira Maxi Jumbo",
+        "en": "Marplast Skin Maxi Jumbo toilet roll dispenser"
+      },
+      "short_description": {
+        "hr": "Držač jumbo role toaletnog papira, veličina Maxi, linija Skin.",
+        "en": "Jumbo toilet roll dispenser, Maxi size, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Držač jumbo role toaletnog papira, veličina Maxi, linija Skin."
+        ],
+        "en": [
+          "Jumbo toilet roll dispenser, Maxi size, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "908"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/908-bianco/",
+      "dispenser_type": "toilet_jumbo_maxi",
+      "sort": 1007
+    },
+    {
+      "slug": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l",
+      "sku": "914",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dozator pjenastog sapuna 0,5/0,8 L",
+        "en": "Marplast Skin foam soap dispenser 0.5/0.8 L"
+      },
+      "short_description": {
+        "hr": "Dozator pjenastog sapuna za uloške od 0,5 i 0,8 L, linija Skin.",
+        "en": "Foam soap dispenser for 0.5 and 0.8 L cartridges, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dozator pjenastog sapuna za uloške od 0,5 i 0,8 L, linija Skin."
+        ],
+        "en": [
+          "Foam soap dispenser for 0.5 and 0.8 L cartridges, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "914"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/914-bianco/",
+      "dispenser_type": "soap_foam",
+      "sort": 1008
+    },
+    {
+      "slug": "marplast-912-dozator-tekuceg-sapuna-0-5-l",
+      "sku": "912",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dozator tekućeg sapuna 0,5 L",
+        "en": "Marplast Skin liquid soap dispenser 0.5 L"
+      },
+      "short_description": {
+        "hr": "Dozator tekućeg sapuna za uloške od 0,5 L, linija Skin.",
+        "en": "Liquid soap dispenser for 0.5 L cartridges, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dozator tekućeg sapuna za uloške od 0,5 L, linija Skin."
+        ],
+        "en": [
+          "Liquid soap dispenser for 0.5 L cartridges, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "912"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/912-bianco/",
+      "dispenser_type": "soap_liquid",
+      "sort": 1009
+    },
+    {
+      "slug": "marplast-929-zidni-drzac-wc-cetke",
+      "sku": "929",
+      "category": "wc-oprema",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin zidni držač WC četke",
+        "en": "Marplast Skin wall-mounted toilet brush holder"
+      },
+      "short_description": {
+        "hr": "Zidni držač WC četke, linija Skin.",
+        "en": "Wall-mounted toilet brush holder, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Zidni držač WC četke, linija Skin."
+        ],
+        "en": [
+          "Wall-mounted toilet brush holder, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "929"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/929-bianco/",
+      "dispenser_type": null,
+      "sort": 1010
+    },
+    {
+      "slug": "marplast-740-kanta-za-smece-s-poklopcem-23-l",
+      "sku": "740",
+      "category": "kante-za-smece",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin kanta za smeće s poklopcem 23 L",
+        "en": "Marplast Skin waste bin with lid 23 L"
+      },
+      "short_description": {
+        "hr": "Kanta za smeće od 23 L s poklopcem i držačem vreće, linija Skin.",
+        "en": "23 L waste bin with lid and bag retainer, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Kanta za smeće od 23 L s poklopcem i držačem vreće, linija Skin."
+        ],
+        "en": [
+          "23 L waste bin with lid and bag retainer, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "740"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "stone",
+            "en": "stone"
+          },
+          "color": "stone",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/740-bianco/",
+      "dispenser_type": null,
+      "sort": 1011
+    },
+    {
+      "slug": "marplast-760-dispenzer-za-industrijsku-pastu-3-l",
+      "sku": "760",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Plus dispenzer za industrijsku pastu 3 L",
+        "en": "Marplast Plus hand paste dispenser 3 L"
+      },
+      "short_description": {
+        "hr": "Dispenzer za industrijsku pastu za pranje ruku, 3 L, linija Plus. Koristi Bag Volflex uložak (GEL/GRIT FLUIDE).",
+        "en": "Dispenser for industrial hand cleaning paste, 3 L, Plus line. Uses Bag Volflex cartridges (GEL/GRIT FLUIDE)."
+      },
+      "description": {
+        "hr": [
+          "Dispenzer za industrijsku pastu za pranje ruku, 3 L, linija Plus. Koristi Bag Volflex uložak (GEL/GRIT FLUIDE)."
+        ],
+        "en": [
+          "Dispenser for industrial hand cleaning paste, 3 L, Plus line. Uses Bag Volflex cartridges (GEL/GRIT FLUIDE)."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "760"
+        },
+        {
+          "key": "line",
+          "value": "Plus"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "siva",
+            "en": "grey"
+          },
+          "color": "siva",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/760-bianco/",
+      "dispenser_type": "paste",
+      "sort": 1012
+    },
+    {
+      "slug": "marplast-565-kanta-za-papir-6-l",
+      "sku": "565",
+      "category": "kante-za-smece",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast kanta za papir 6 L",
+        "en": "Marplast waste paper bin 6 L"
+      },
+      "short_description": {
+        "hr": "Kanta za papir od 6 L.",
+        "en": "6 L waste paper bin."
+      },
+      "description": {
+        "hr": [
+          "Kanta za papir od 6 L."
+        ],
+        "en": [
+          "6 L waste paper bin."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "565"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "crna",
+            "en": "black"
+          },
+          "color": "crna",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/565-bianco/",
+      "dispenser_type": null,
+      "sort": 1013
+    },
+    {
+      "slug": "marplast-579-pravokutna-kanta-za-smece-8-l",
+      "sku": "579",
+      "category": "kante-za-smece",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast pravokutna kanta za smeće 8 L",
+        "en": "Marplast rectangular waste bin 8 L"
+      },
+      "short_description": {
+        "hr": "Pravokutna kanta za smeće od 8 L.",
+        "en": "Rectangular 8 L waste bin."
+      },
+      "description": {
+        "hr": [
+          "Pravokutna kanta za smeće od 8 L."
+        ],
+        "en": [
+          "Rectangular 8 L waste bin."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "579"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "crna",
+            "en": "black"
+          },
+          "color": "crna",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "satin",
+            "en": "satin"
+          },
+          "color": "satin",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/579-bianco/",
+      "dispenser_type": null,
+      "sort": 1014
+    },
+    {
+      "slug": "marplast-664-zidni-nosac-za-kantu-579",
+      "sku": "664",
+      "category": "kante-za-smece",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast zidni nosač za kantu 579",
+        "en": "Marplast wall bracket for bin 579"
+      },
+      "short_description": {
+        "hr": "Zidni nosač za pravokutnu kantu art. 579.",
+        "en": "Wall bracket for rectangular bin art. 579."
+      },
+      "description": {
+        "hr": [
+          "Zidni nosač za pravokutnu kantu art. 579."
+        ],
+        "en": [
+          "Wall bracket for rectangular bin art. 579."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "664"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "crna",
+            "en": "black"
+          },
+          "color": "crna",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "satin",
+            "en": "satin"
+          },
+          "color": "satin",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/664-bianco/",
+      "dispenser_type": null,
+      "sort": 1015
+    },
+    {
+      "slug": "marplast-580-poklopac-na-preklop-za-kantu-579",
+      "sku": "580",
+      "category": "kante-za-smece",
+      "brand": "marplast",
+      "kind": "other",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast poklopac na preklop za kantu 579",
+        "en": "Marplast swing lid for bin 579"
+      },
+      "short_description": {
+        "hr": "Poklopac na preklop za pravokutnu kantu art. 579.",
+        "en": "Swing lid for rectangular bin art. 579."
+      },
+      "description": {
+        "hr": [
+          "Poklopac na preklop za pravokutnu kantu art. 579."
+        ],
+        "en": [
+          "Swing lid for rectangular bin art. 579."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "580"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "crna",
+            "en": "black"
+          },
+          "color": "crna",
+          "size": null,
+          "sku": null
+        },
+        {
+          "label": {
+            "hr": "satin",
+            "en": "satin"
+          },
+          "color": "satin",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [],
+      "manufacturer_url": "https://www.marplast.it/prodotto/580-bianco/",
+      "dispenser_type": null,
+      "sort": 1016
+    }
+  ],
+  "compatibility": [
+    {
+      "host": "marplast-903-dispenzer-za-slozive-rucnike-750-listica",
+      "fits": "slozivi-rucnici-cc21v",
+      "note": null
+    },
+    {
+      "host": "marplast-903-dispenzer-za-slozive-rucnike-750-listica",
+      "fits": "slozivi-rucnici-cc21vx",
+      "note": null
+    },
+    {
+      "host": "marplast-901-dispenzer-za-slozive-rucnike-450-listica",
+      "fits": "slozivi-rucnici-ccz",
+      "note": null
+    },
+    {
+      "host": "marplast-884-dispenzer-za-rucnike-u-roli-s-automatskim-rezanjem",
+      "fits": "rucnici-u-roli-ccac130",
+      "note": "check – Popis navodi \"CCAC140\" – u ponudi postoji samo CCAC130. Provjeriti i art. 889."
+    },
+    {
+      "host": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi",
+      "fits": "rola-centralno-izvlacenje-ccsp104",
+      "note": "check – Popis navodi \"CCSP105\" – u ponudi je CCSP104 (103,5 m)."
+    },
+    {
+      "host": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi",
+      "fits": "rola-centralno-izvlacenje-ccsp135",
+      "note": "check – Popis navodi \"CCSP105\" – u ponudi je CCSP104 (103,5 m)."
+    },
+    {
+      "host": "marplast-932-dispenzer-za-centralno-izvlacenje-mini",
+      "fits": "toaletni-papir-cctms",
+      "note": null
+    },
+    {
+      "host": "marplast-909-dispenzer-za-toaletni-papir-u-listicima",
+      "fits": "toaletni-papir-cct-9000",
+      "note": null
+    },
+    {
+      "host": "marplast-907-drzac-toaletnog-papira-midi-jumbo",
+      "fits": "toaletni-papir-cctmj",
+      "note": "check – Na marplast.it naziv \"Midi Jumbo\" (bijela varijanta još nosi \"Mini\") – isti artikl."
+    },
+    {
+      "host": "marplast-908-drzac-toaletnog-papira-maxi-jumbo",
+      "fits": "toaletni-papir-cctmxj",
+      "note": null
+    },
+    {
+      "host": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l",
+      "fits": "pjenasti-sapun-za-ruke-za-drzace-0-5-l",
+      "note": null
+    },
+    {
+      "host": "marplast-912-dozator-tekuceg-sapuna-0-5-l",
+      "fits": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+      "note": null
+    },
+    {
+      "host": "marplast-760-dispenzer-za-industrijsku-pastu-3-l",
+      "fits": "industrijska-pasta-za-ruke-3-l",
+      "note": "auto:format – Dispenzer koristi Bag Volflex uložak – provjeriti odgovara li naša industrijska pasta 3 L."
+    },
+    {
+      "host": "marplast-579-pravokutna-kanta-za-smece-8-l",
+      "fits": "marplast-580-poklopac-na-preklop-za-kantu-579",
+      "note": "check – Art. 580 predložen umjesto 883 (883 je držač za pelene, ne poklopac)."
+    },
+    {
+      "host": "marplast-664-zidni-nosac-za-kantu-579",
+      "fits": "marplast-579-pravokutna-kanta-za-smece-8-l",
+      "note": null
+    }
+  ],
+  "discontinued": [
+    {
+      "sku": "CCAC80",
+      "reason": "\"AC80 ukinut\" (red 884)"
+    },
+    {
+      "sku": "CCSP46",
+      "reason": "\"CCSP46 ukinut\" (red 935)"
+    }
+  ],
+  "log": [
+    "art. 903: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 903: boja \"Titanium\" preskočena (titanium)",
+    "art. 901: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 901: boja \"Titanium\" preskočena (titanium)",
+    "art. 884: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 884: boja \"Titanium\" preskočena (titanium)",
+    "art. 935: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 935: boja \"Titanium\" preskočena (titanium)",
+    "art. 932: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 932: boja \"Titanium\" preskočena (titanium)",
+    "art. 909: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 909: boja \"Titanium\" preskočena (titanium)",
+    "art. 907: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 907: boja \"Titanium\" preskočena (titanium)",
+    "art. 908: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 908: boja \"Titanium\" preskočena (titanium)",
+    "art. 914: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 914: boja \"Titanium\" preskočena (titanium)",
+    "art. 912: boja \"Sand\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 912: boja \"Titanium\" preskočena (titanium)",
+    "art. 929: boja \"Sand/Marrone\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 929: boja \"Titanium/Nero\" preskočena (titanium)",
+    "art. 740: boja \"Sand/Marrone\" preskočena (Skin linija: samo bijela/stone/carbon)",
+    "art. 740: boja \"Titanium/Nero\" preskočena (titanium)",
+    "preskočen art. 883: Pogrešan artikl u popisu (držač za pelene, ne poklopac) – zamijenjen art. 580."
+  ]
+}

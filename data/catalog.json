@@ -394,11 +394,61 @@
       "slug": "dispenzeri",
       "parent": null,
       "name": {
-        "hr": "Dispenzeri (Marplast)",
-        "en": "Dispensers (Marplast)"
+        "hr": "Dispenzeri i oprema (Marplast)",
+        "en": "Dispensers and fixtures (Marplast)"
       },
       "image": null,
       "sort": 39
+    },
+    {
+      "slug": "dispenzeri-rucnici",
+      "parent": "dispenzeri",
+      "name": {
+        "hr": "Dispenzeri za ručnike",
+        "en": "Towel dispensers"
+      },
+      "image": null,
+      "sort": 40
+    },
+    {
+      "slug": "dispenzeri-toaletni-papir",
+      "parent": "dispenzeri",
+      "name": {
+        "hr": "Dispenzeri za toaletni papir",
+        "en": "Toilet paper dispensers"
+      },
+      "image": null,
+      "sort": 41
+    },
+    {
+      "slug": "dozatori-sapuna",
+      "parent": "dispenzeri",
+      "name": {
+        "hr": "Dozatori sapuna",
+        "en": "Soap dispensers"
+      },
+      "image": null,
+      "sort": 42
+    },
+    {
+      "slug": "kante-za-smece",
+      "parent": "dispenzeri",
+      "name": {
+        "hr": "Kante za smeće",
+        "en": "Waste bins"
+      },
+      "image": null,
+      "sort": 43
+    },
+    {
+      "slug": "wc-oprema",
+      "parent": "dispenzeri",
+      "name": {
+        "hr": "WC oprema",
+        "en": "Toilet accessories"
+      },
+      "image": null,
+      "sort": 44
     }
   ],
   "brands": [

@@ -3,12 +3,14 @@ import "server-only";
 import catalogJson from "@/data/catalog.json";
 import compatibilityJson from "@/data/compatibility.json";
 import featuredJson from "@/data/featured.json";
+import marplastJson from "@/data/marplast.json";
 import relationsJson from "@/data/relations.json";
 import scenesJson from "@/data/scenes.json";
 import {
   catalogSchema,
   compatibilitySchema,
   featuredSchema,
+  marplastSchema,
   relationsSchema,
   scenesSchema,
   type Category,
@@ -18,7 +20,14 @@ import {
 } from "./schema";
 
 // Parsed once per server process; an invalid data file fails `next build`.
-const catalog = catalogSchema.parse(catalogJson);
+const marplast = marplastSchema.parse(marplastJson);
+const discontinued = new Set(marplast.discontinued.map((d) => d.sku));
+const catalog = catalogSchema.parse({
+  ...catalogJson,
+  products: [...catalogJson.products, ...marplast.products].map((p) =>
+    p.sku && discontinued.has(p.sku) ? { ...p, is_active: false } : p,
+  ),
+});
 const compatibility = compatibilitySchema.parse(compatibilityJson);
 const relations = relationsSchema.parse(relationsJson);
 const featured = featuredSchema.parse(featuredJson);
@@ -65,6 +74,7 @@ export type ProductDetail = ProductCard & {
   variants: { label: string; color: string | null; size: string | null; sku: string | null }[];
   images: string[];
   brandLogo: string | null;
+  manufacturerUrl: string | null;
   breadcrumb: CategoryRef[];
 };
 
@@ -166,6 +176,7 @@ export function getProduct(slug: string, locale: Locale): ProductDetail | null {
     variants: p.variants.map((v) => ({ label: pick(v.label, locale), color: v.color, size: v.size, sku: v.sku })),
     images: p.images,
     brandLogo: brand?.logo ?? null,
+    manufacturerUrl: p.manufacturer_url ?? null,
     breadcrumb: categoryPath(p.category).map((c) => categoryRef(c, locale)),
   };
 }

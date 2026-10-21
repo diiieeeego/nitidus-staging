@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "catalog": "python3 -I scripts/extract_docx.py && python3 -I scripts/import_marplast.py && python3 -I scripts/build_links.py"
   },
   "dependencies": {
     "next": "16.4.2",

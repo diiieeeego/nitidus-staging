@@ -17,6 +17,10 @@ COLORS = {
     "bordo": {"hr": "bordo", "en": "burgundy"},
     "zuta": {"hr": "žuta", "en": "yellow"},
     "antracit": {"hr": "antracit", "en": "anthracite"},
+    "stone": {"hr": "stone", "en": "stone"},
+    "carbon": {"hr": "carbon", "en": "carbon"},
+    "siva": {"hr": "siva", "en": "grey"},
+    "satin": {"hr": "satin", "en": "satin"},
     "antracit-zelena": {"hr": "antracit / zelena", "en": "anthracite / green"},
     "antracit-crvena": {"hr": "antracit / crvena", "en": "anthracite / red"},
     "antracit-plava": {"hr": "antracit / plava", "en": "anthracite / blue"},
@@ -182,7 +186,12 @@ CATEGORIES = [
     cat("ambalaza-kraft", "ambalaza", "Kraft asortiman", "Kraft range", image_rid="rId144"),
     cat("ugostiteljski-pribor", "ambalaza", "Ugostiteljski pribor", "Catering supplies", image_rid="rId143"),
 
-    cat("dispenzeri", None, "Dispenzeri (Marplast)", "Dispensers (Marplast)"),
+    cat("dispenzeri", None, "Dispenzeri i oprema (Marplast)", "Dispensers and fixtures (Marplast)"),
+    cat("dispenzeri-rucnici", "dispenzeri", "Dispenzeri za ručnike", "Towel dispensers"),
+    cat("dispenzeri-toaletni-papir", "dispenzeri", "Dispenzeri za toaletni papir", "Toilet paper dispensers"),
+    cat("dozatori-sapuna", "dispenzeri", "Dozatori sapuna", "Soap dispensers"),
+    cat("kante-za-smece", "dispenzeri", "Kante za smeće", "Waste bins"),
+    cat("wc-oprema", "dispenzeri", "WC oprema", "Toilet accessories"),
 ]
 
 KRAFT_CATEGORY = "ambalaza-kraft"
