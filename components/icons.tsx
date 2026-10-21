@@ -88,3 +88,20 @@ export const PlayIcon = (p: IconProps) => (
     <path d="M7 5l12 7-12 7z" />
   </svg>
 );
+export const FacebookIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V9H6.5v3.5H9V21h3.5v-8.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z" />
+  </svg>
+);
+export const InstagramIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <path d="M17.5 6.5h.01" />
+  </svg>
+);
+export const LinkedInIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M4 9h4v11H4zM6 4.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zM11 9h3.8v1.6c.6-1 1.8-1.9 3.6-1.9 3 0 3.6 2 3.6 4.6V20h-4v-5.8c0-1.4 0-3-1.9-3s-2.1 1.4-2.1 2.9V20h-4z" />
+  </svg>
+);

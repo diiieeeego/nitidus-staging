@@ -33,7 +33,7 @@ export async function Header() {
         <nav aria-label={t("label")} className="hidden lg:block">
           <ul className="flex items-center gap-1">
             <li>
-              <Link href={links[0].href} className="rounded-md px-3 py-2 font-medium hover:bg-surface">
+              <Link href={links[0].href} className="rounded-md px-3 py-2 font-medium whitespace-nowrap hover:bg-surface">
                 {links[0].label}
               </Link>
             </li>
@@ -42,7 +42,7 @@ export async function Header() {
             </li>
             {links.slice(1).map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="rounded-md px-3 py-2 font-medium hover:bg-surface">
+                <Link href={l.href} className="rounded-md px-3 py-2 font-medium whitespace-nowrap hover:bg-surface">
                   {l.label}
                 </Link>
               </li>
@@ -55,7 +55,7 @@ export async function Header() {
         </div>
 
         <div className="ml-auto flex items-center gap-1 md:ml-0">
-          <div className="hidden lg:block">
+          <div className="hidden shrink-0 lg:block">
             <LanguageSwitcher />
           </div>
           <MobileNav links={links} categories={categories} categoriesLabel={t("categories")} />

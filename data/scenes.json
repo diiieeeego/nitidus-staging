@@ -1,8 +1,8 @@
 [
   {
     "slug": "skin-stone",
-    "image": "/scenes/skin-stone.webp",
-    "aspect": "4/3",
+    "image": "/scenes/skin-stone.bb0f80da.webp",
+    "aspect": "6/5",
     "title": { "hr": "Kupaonica – linija Skin, boja stone", "en": "Washroom – Skin line in stone" },
     "alt": {
       "hr": "Kupaonica s dispenzerom složivih ručnika, dozatorom sapuna i kantom za smeće Marplast Skin u boji stone",
@@ -10,15 +10,15 @@
     },
     "is_active": true,
     "hotspots": [
-      { "product": "marplast-901-dispenzer-za-slozive-rucnike-450-listica", "x_pct": 27.0, "y_pct": 33.3 },
-      { "product": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l", "x_pct": 70.0, "y_pct": 35.6 },
-      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 77.0, "y_pct": 87.8 }
+      { "product": "marplast-901-dispenzer-za-slozive-rucnike-450-listica", "x_pct": 27.0, "y_pct": 35.0 },
+      { "product": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l", "x_pct": 70.0, "y_pct": 37.0 },
+      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 77.0, "y_pct": 84.0 }
     ]
   },
   {
     "slug": "skin-white",
-    "image": "/scenes/skin-white.webp",
-    "aspect": "4/3",
+    "image": "/scenes/skin-white.69542499.webp",
+    "aspect": "7/4",
     "title": { "hr": "Javni toalet – linija Skin, bijela", "en": "Public washroom – Skin line in white" },
     "alt": {
       "hr": "Javni toalet s bijelim Marplast Skin dispenzerom ručnika, dozatorima sapuna i kantom ispod umivaonika",
@@ -26,15 +26,15 @@
     },
     "is_active": true,
     "hotspots": [
-      { "product": "marplast-901-dispenzer-za-slozive-rucnike-450-listica", "x_pct": 55.2, "y_pct": 15.0 },
-      { "product": "marplast-911-dozator-sapuna-s-punjenjem", "x_pct": 70.9, "y_pct": 24.0 },
-      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 51.2, "y_pct": 70.0 }
+      { "product": "marplast-901-dispenzer-za-slozive-rucnike-450-listica", "x_pct": 54.0, "y_pct": 15.0 },
+      { "product": "marplast-911-dozator-sapuna-s-punjenjem", "x_pct": 66.0, "y_pct": 24.0 },
+      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 51.0, "y_pct": 70.0 }
     ]
   },
   {
     "slug": "skin-carbon",
-    "image": "/scenes/skin-carbon.webp",
-    "aspect": "4/3",
+    "image": "/scenes/skin-carbon.76004f73.webp",
+    "aspect": "300/211",
     "title": { "hr": "Sanitarni čvor – linija Skin, boja carbon", "en": "Restroom – Skin line in carbon" },
     "alt": {
       "hr": "Sanitarni čvor s nizom umivaonika, Marplast Skin dispenzerima ručnika, dozatorima sapuna s polugom i kantom u boji carbon",
@@ -42,15 +42,15 @@
     },
     "is_active": true,
     "hotspots": [
-      { "product": "marplast-949-dispenzer-za-slozive-rucnike-compact", "x_pct": 86.0, "y_pct": 26.0 },
-      { "product": "marplast-943-dozator-sapuna-s-punjenjem-i-polugom", "x_pct": 40.2, "y_pct": 44.0 },
-      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 9.8, "y_pct": 51.0 }
+      { "product": "marplast-949-dispenzer-za-slozive-rucnike-compact", "x_pct": 84.0, "y_pct": 26.0 },
+      { "product": "marplast-943-dozator-sapuna-s-punjenjem-i-polugom", "x_pct": 41.0, "y_pct": 44.0 },
+      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 12.5, "y_pct": 51.0 }
     ]
   },
   {
     "slug": "skin-sand",
-    "image": "/scenes/skin-sand.webp",
-    "aspect": "4/3",
+    "image": "/scenes/skin-sand.33e07dbc.webp",
+    "aspect": "400/583",
     "title": { "hr": "Kupaonica – beskontaktni dispenzeri Skin", "en": "Washroom – touch-free Skin dispensers" },
     "alt": {
       "hr": "Kupaonica s beskontaktnim Marplast Skin dispenzerom ručnika u roli i dozatorom sapuna sa senzorom",
@@ -58,8 +58,8 @@
     },
     "is_active": true,
     "hotspots": [
-      { "product": "marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor", "x_pct": 75.0, "y_pct": 43.3 },
-      { "product": "marplast-923-automatski-dozator-sapuna-za-uloske-senzor", "x_pct": 54.0, "y_pct": 53.0 }
+      { "product": "marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor", "x_pct": 75.0, "y_pct": 28.0 },
+      { "product": "marplast-923-automatski-dozator-sapuna-za-uloske-senzor", "x_pct": 54.0, "y_pct": 33.0 }
     ]
   }
 ]

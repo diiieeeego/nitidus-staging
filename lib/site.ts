@@ -6,4 +6,7 @@ export const site = {
   ],
   email: "nitidusdoo@gmail.com",
   address: { street: "Put Dikla 71", postalCode: "23000", city: "Zadar", country: "HR" },
+  // Social profiles shown in the mobile menu; add entries here,
+  // e.g. { network: "facebook", href: "https://www.facebook.com/..." }.
+  social: [] as readonly { network: "facebook" | "instagram" | "linkedin"; href: string }[],
 } as const;

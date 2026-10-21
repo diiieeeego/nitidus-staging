@@ -21,14 +21,23 @@
     "categories": "Categories",
     "about": "About us",
     "contact": "Contact",
-    "allProducts": "All products"
+    "allProducts": "All products",
+    "menu": "Menu",
+    "quickLinks": "Quick links",
+    "requestQuote": "Request a quote",
+    "call": "Call us",
+    "email": "Send an email",
+    "contactInfo": "Contact details",
+    "followUs": "Follow us"
   },
   "Footer": {
     "tagline": "Hygiene and washroom supplies for offices, public spaces and hospitality.",
     "contact": "Contact",
     "categories": "Categories",
     "rights": "All rights reserved.",
-    "prices": "All prices on request."
+    "prices": "All prices on request.",
+    "links": "Links",
+    "follow": "Follow us"
   },
   "Home": {
     "hero": {
@@ -45,6 +54,10 @@
       "editHint": "Pin edit mode: click the image to get coordinates.",
       "featuredList": "All featured products"
     },
+    "quote": {
+      "title": "Need a quote or advice?",
+      "text": "Call us or send an email – we will prepare an offer tailored to your needs."
+    },
     "brands": {
       "title": "Brands we work with",
       "pause": "Pause scrolling",
@@ -57,6 +70,8 @@
     },
     "about": {
       "title": "About us",
+      "tagline": "A reliable partner for hygiene in your premises",
+      "offerTitle": "What we offer",
       "text": "Nitidus is the right partner for sourcing consumables delivered to your address – for worry-free operations in hospitality, industry and any business that relies on consumable supplies.",
       "services": {
         "delivery": "Sales and fast delivery of hygiene and washroom supplies",
@@ -76,6 +91,9 @@
     "title": "Products",
     "description": "Catalogue of hygiene and washroom supplies. All prices on request.",
     "allCategories": "All categories",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "allSubcategories": "All subcategories",
     "filterLabel": "Filter by category",
     "count": "{count, plural, one {# product} other {# products}}",
     "empty": "There are currently no products in this category.",

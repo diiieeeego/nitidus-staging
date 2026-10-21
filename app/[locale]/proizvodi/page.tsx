@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { getCategory, getCategoryTree, listProducts } from "@/lib/catalog";
 import type { Locale } from "@/lib/catalog/schema";
 import { alternates } from "@/lib/seo";
+import { CategoryFilter } from "@/components/product/CategoryFilter";
 import { ProductCard } from "@/components/product/ProductCard";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -40,56 +41,37 @@ async function ProductList({ searchParams }: { searchParams: PageProps<"/[locale
   const page = Number.parseInt(first(params.stranica) ?? "1", 10) || 1;
   const result = listProducts({ locale, category: category?.slug, page });
 
-  const tree = getCategoryTree(locale).filter((c) => c.count > 0);
+  const tree = getCategoryTree(locale)
+    .filter((c) => c.count > 0)
+    .map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      count: c.count,
+      children: c.children
+        .filter((s) => s.count > 0)
+        .map((s) => ({ slug: s.slug, name: s.name, count: s.count })),
+    }));
   const activeTop = category ? category.breadcrumb[0].slug : null;
-  const subcategories = tree.find((c) => c.slug === activeTop)?.children.filter((c) => c.count > 0) ?? [];
+  const activeSub = category && category.breadcrumb.length > 1 ? category.slug : null;
 
   const pageHref = (p: number) => ({
     pathname: "/proizvodi" as const,
     query: { ...(category ? { kategorija: category.slug } : {}), ...(p > 1 ? { stranica: String(p) } : {}) },
   });
-  const chip = (active: boolean) =>
-    `inline-flex min-h-10 items-center rounded-full border px-4 py-1.5 text-sm font-medium ${
-      active ? "border-ink bg-ink text-white" : "border-line bg-white hover:border-ink"
-    }`;
-
   return (
     <>
-      <nav aria-label={t("filterLabel")} className="mt-8">
-        <ul className="flex flex-wrap gap-2">
-          <li>
-            <Link href="/proizvodi" className={chip(!category)} aria-current={!category ? "page" : undefined}>
-              {t("allCategories")}
-            </Link>
-          </li>
-          {tree.map((c) => (
-            <li key={c.slug}>
-              <Link
-                href={{ pathname: "/proizvodi", query: { kategorija: c.slug } }}
-                className={chip(activeTop === c.slug)}
-                aria-current={category?.slug === c.slug ? "page" : undefined}
-              >
-                {c.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        {subcategories.length > 0 && (
-          <ul className="mt-3 flex flex-wrap gap-2 border-t border-line pt-3">
-            {subcategories.map((c) => (
-              <li key={c.slug}>
-                <Link
-                  href={{ pathname: "/proizvodi", query: { kategorija: c.slug } }}
-                  className={`${chip(category?.slug === c.slug)} text-xs`}
-                  aria-current={category?.slug === c.slug ? "page" : undefined}
-                >
-                  {c.name} <span className="ml-1 opacity-70">{c.count}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
-      </nav>
+      <CategoryFilter
+        tree={tree}
+        top={activeTop}
+        sub={activeSub}
+        labels={{
+          label: t("filterLabel"),
+          category: t("category"),
+          subcategory: t("subcategory"),
+          all: t("allCategories"),
+          allSub: t("allSubcategories"),
+        }}
+      />
 
       <div className="mt-6 flex items-baseline justify-between gap-4">
         <h2 className="text-xl font-semibold">{category?.name ?? t("allCategories")}</h2>
@@ -136,10 +118,9 @@ async function ProductList({ searchParams }: { searchParams: PageProps<"/[locale
 function ListSkeleton() {
   return (
     <div aria-hidden className="mt-8 animate-pulse">
-      <div className="flex flex-wrap gap-2">
-        {Array.from({ length: 8 }, (_, i) => (
-          <div key={i} className="h-10 w-32 rounded-full bg-surface" />
-        ))}
+      <div className="grid max-w-3xl gap-4 sm:grid-cols-2">
+        <div className="h-[4.625rem] rounded-lg bg-surface" />
+        <div className="h-[4.625rem] rounded-lg bg-surface" />
       </div>
       <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {Array.from({ length: 8 }, (_, i) => (

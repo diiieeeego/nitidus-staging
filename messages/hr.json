@@ -21,14 +21,23 @@
     "categories": "Kategorije",
     "about": "O nama",
     "contact": "Kontakt",
-    "allProducts": "Svi proizvodi"
+    "allProducts": "Svi proizvodi",
+    "menu": "Izbornik",
+    "quickLinks": "Brze poveznice",
+    "requestQuote": "Zatraži ponudu",
+    "call": "Nazovi",
+    "email": "Pošalji e-mail",
+    "contactInfo": "Kontakt podaci",
+    "followUs": "Pratite nas"
   },
   "Footer": {
     "tagline": "Higijenske i sanitarne potrepštine za poslovne, javne i ugostiteljske prostore.",
     "contact": "Kontakt",
     "categories": "Kategorije",
     "rights": "Sva prava pridržana.",
-    "prices": "Sve cijene su na upit."
+    "prices": "Sve cijene su na upit.",
+    "links": "Poveznice",
+    "follow": "Pratite nas"
   },
   "Home": {
     "hero": {
@@ -39,11 +48,15 @@
       "ctaQuote": "Zatraži ponudu"
     },
     "scenes": {
-      "title": "Udarni proizvodi",
+      "title": "Istaknuti proizvodi",
       "subtitle": "Kliknite oznaku na slici za proizvod i potrošne artikle koji mu pristaju.",
       "pinLabel": "{name} – prikaži proizvod",
       "editHint": "Način uređivanja pinova: kliknite na sliku za koordinate.",
-      "featuredList": "Svi udarni proizvodi"
+      "featuredList": "Svi istaknuti proizvodi"
+    },
+    "quote": {
+      "title": "Trebate ponudu ili savjet?",
+      "text": "Nazovite nas ili pošaljite e-mail – pripremit ćemo ponudu prema vašim potrebama."
     },
     "brands": {
       "title": "Brendovi s kojima radimo",
@@ -57,6 +70,8 @@
     },
     "about": {
       "title": "O nama",
+      "tagline": "Pouzdan partner za higijenu vašeg prostora",
+      "offerTitle": "Što nudimo",
       "text": "Nitidus je pravo rješenje za poslovanje i nabavu potrošnog materijala koji dostavljamo na vašu adresu – za bezbrižno poslovanje u ugostiteljstvu, industriji i svim djelatnostima u kojima se koristi potrošni materijal.",
       "services": {
         "delivery": "Prodaja i brza dostava higijenskog i sanitarnog materijala",
@@ -76,6 +91,9 @@
     "title": "Proizvodi",
     "description": "Katalog higijenskih i sanitarnih potrepština. Sve cijene su na upit.",
     "allCategories": "Sve kategorije",
+    "category": "Kategorija",
+    "subcategory": "Podkategorija",
+    "allSubcategories": "Sve podkategorije",
     "filterLabel": "Filtriraj po kategoriji",
     "count": "{count, plural, one {# proizvod} few {# proizvoda} other {# proizvoda}}",
     "empty": "U ovoj kategoriji trenutno nema proizvoda.",

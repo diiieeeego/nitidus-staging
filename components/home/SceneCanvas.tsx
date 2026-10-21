@@ -1,14 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import { useId, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
-import { Link, useRouter } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 
 export type Hotspot = {
   x: number;
   y: number;
-  product: { slug: string; name: string; image: string | null; sku: string | null };
+  product: { slug: string; name: string; sku: string | null };
 };
 
 const subscribeNoop = () => () => {};
@@ -34,7 +33,6 @@ export function SceneCanvas({
   children: ReactNode;
 }) {
   const t = useTranslations("Home.scenes");
-  const tc = useTranslations("Common");
   const router = useRouter();
   const [active, setActive] = useState<number | null>(null);
   const [picked, setPicked] = useState<{ x: number; y: number } | null>(null);
@@ -62,7 +60,7 @@ export function SceneCanvas({
 
   return (
     <div
-      className="relative rounded-xl border border-line bg-surface [&>img]:rounded-xl"
+      className="relative bg-surface"
       style={{ aspectRatio: aspect }}
       onClick={onCanvasClick}
       onKeyDown={(e) => e.key === "Escape" && setActive(null)}
@@ -97,37 +95,18 @@ export function SceneCanvas({
               }}
               className="group flex h-11 w-11 items-center justify-center rounded-full"
             >
-              <span className="absolute h-5 w-5 animate-ping rounded-full bg-brand-amber opacity-60 motion-reduce:hidden sm:h-7 sm:w-7" />
-              <span className="relative flex h-5 w-5 items-center justify-center rounded-full border-2 border-white sm:h-7 sm:w-7 sm:border-[3px] bg-brand-amber shadow-md ring-1 ring-ink/20 transition group-hover:scale-110 group-focus-visible:scale-110">
-                <span className="h-1.5 w-1.5 rounded-full bg-ink sm:h-2 sm:w-2" />
-              </span>
+              <span className="absolute h-5 w-5 animate-ping rounded-full bg-white opacity-50 motion-reduce:hidden sm:h-7 sm:w-7" />
+              <span className="relative h-5 w-5 rounded-full bg-white shadow-[0_1px_6px_rgb(0_0_0/0.35)] ring-1 ring-ink/10 transition group-hover:scale-125 group-focus-visible:scale-125 sm:h-7 sm:w-7" />
             </button>
 
             <div
               id={popoverId}
               role="tooltip"
               hidden={!open}
-              className={`absolute ${align} ${below ? "top-full mt-1" : "bottom-full mb-1"} w-52 rounded-lg border sm:w-56 border-line bg-white p-3 shadow-xl`}
+              className={`absolute ${align} ${below ? "top-full mt-1" : "bottom-full mb-1"} pointer-events-none w-max max-w-56 rounded-lg border border-line bg-white px-3 py-2 shadow-xl`}
             >
-              <div className="flex gap-3">
-                <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md bg-surface">
-                  {h.product.image ? (
-                    <Image src={h.product.image} alt="" fill sizes="56px" className="object-contain p-1" />
-                  ) : (
-                    <span className="sr-only">{tc("imagePlaceholder")}</span>
-                  )}
-                </div>
-                <div className="min-w-0">
-                  <p className="text-sm leading-snug font-semibold">{h.product.name}</p>
-                  {h.product.sku && <p className="text-xs text-muted">{h.product.sku}</p>}
-                </div>
-              </div>
-              <Link
-                href={`/proizvodi/${h.product.slug}`}
-                className="mt-2 block rounded-md bg-brand-green-700 px-3 py-1.5 text-center text-sm font-semibold text-white hover:bg-[#336322]"
-              >
-                {tc("view")}
-              </Link>
+              {h.product.sku && <p className="font-mono text-xs text-muted">{h.product.sku}</p>}
+              <p className="text-sm leading-snug font-semibold">{h.product.name}</p>
             </div>
           </div>
         );
