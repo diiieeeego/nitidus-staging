@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "slug": "kupaonica",
+    "image": "/scenes/kupaonica.svg",
+    "aspect": "3/2",
+    "title": { "hr": "Kupaonica", "en": "Washroom" },
+    "alt": {
+      "hr": "Ilustracija kupaonice s dispenzerom ručnika, dozatorom sapuna, držačem toaletnog papira, kantom i držačem WC četke",
+      "en": "Illustration of a washroom with a towel dispenser, soap dispenser, toilet roll dispenser, bin and toilet brush holder"
+    },
+    "is_active": true,
+    "hotspots": [
+      { "product": "marplast-903-dispenzer-za-slozive-rucnike-750-listica", "x_pct": 21.3, "y_pct": 37.5 },
+      { "product": "marplast-740-kanta-za-smece-s-poklopcem-23-l", "x_pct": 21.7, "y_pct": 71.3 },
+      { "product": "marplast-912-dozator-tekuceg-sapuna-0-5-l", "x_pct": 72.1, "y_pct": 42.5 },
+      { "product": "marplast-907-drzac-toaletnog-papira-midi-jumbo", "x_pct": 86.7, "y_pct": 41.3 },
+      { "product": "marplast-929-zidni-drzac-wc-cetke", "x_pct": 96.5, "y_pct": 73.8 }
+    ]
+  },
+  {
+    "slug": "kuhinja",
+    "image": "/scenes/kuhinja.svg",
+    "aspect": "3/2",
+    "title": { "hr": "Kuhinja restorana", "en": "Restaurant kitchen" },
+    "alt": {
+      "hr": "Ilustracija restoranske kuhinje s dispenzerom ručnika u roli, dozatorom sapuna, deterdžentima, antislip podlogom i držačem mopa",
+      "en": "Illustration of a restaurant kitchen with a roll towel dispenser, soap dispenser, detergents, anti-slip mat and mop holder"
+    },
+    "is_active": true,
+    "hotspots": [
+      { "product": "marplast-884-dispenzer-za-rucnike-u-roli-s-automatskim-rezanjem", "x_pct": 18.3, "y_pct": 32.5 },
+      { "product": "marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l", "x_pct": 33.5, "y_pct": 40.0 },
+      { "product": "sredstvo-za-rucno-pranje-posuda-i-casa", "x_pct": 51.1, "y_pct": 51.3 },
+      { "product": "sredstvo-za-ciscenje-rostilja-i-pecnica-zar-grill-1-l", "x_pct": 57.5, "y_pct": 51.9 },
+      { "product": "sredstvo-za-strojno-pranje-posuda-i-casa", "x_pct": 92.1, "y_pct": 71.3 },
+      { "product": "antislip-gumena-podloga-za-pod", "x_pct": 48.3, "y_pct": 90.6 },
+      { "product": "drzac-mopa-sprint-plus-40-cm", "x_pct": 88.3, "y_pct": 50.0 }
+    ]
+  },
+  {
+    "slug": "ured",
+    "image": "/scenes/ured.svg",
+    "aspect": "3/2",
+    "title": { "hr": "Ured i čajna kuhinja", "en": "Office and kitchenette" },
+    "alt": {
+      "hr": "Ilustracija ureda s dispenzerom za centralno izvlačenje, sredstvima za čišćenje, dezinficijensom za ruke i kantom",
+      "en": "Illustration of an office with a centrefeed dispenser, cleaning products, hand sanitiser and a bin"
+    },
+    "is_active": true,
+    "hotspots": [
+      { "product": "sredstvo-za-ciscenje-staklenih-povrsina-vertix", "x_pct": 26.7, "y_pct": 45.6 },
+      { "product": "marplast-935-dispenzer-za-centralno-izvlacenje-maxi", "x_pct": 69.6, "y_pct": 32.5 },
+      { "product": "sredstvo-za-dezinfekciju-povrsina-i-prostora-antibac-kobold-0-75-l", "x_pct": 83.4, "y_pct": 51.9 },
+      { "product": "vermop-magicne-krpe", "x_pct": 90.0, "y_pct": 55.0 },
+      { "product": "sredstvo-za-dezinfekciju-ruku", "x_pct": 48.9, "y_pct": 58.8 },
+      { "product": "marplast-579-pravokutna-kanta-za-smece-8-l", "x_pct": 21.3, "y_pct": 72.5 }
+    ]
+  }
+]

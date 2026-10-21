@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <pattern id="tiles" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#eef3f4"/>
+      <path d="M80 0H0V80" fill="none" stroke="#dbe4e6" stroke-width="2"/>
+    </pattern>
+    <pattern id="floor" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#d6dcdd"/>
+      <path d="M100 0H0V100" fill="none" stroke="#c4cbcc" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="640" fill="url(#tiles)"/>
+  <rect y="640" width="1200" height="160" fill="url(#floor)"/>
+  <rect y="632" width="1200" height="10" fill="#c9d1d3"/>
+
+  <!-- cubicle partition -->
+  <rect x="930" y="150" width="14" height="490" fill="#b9c6c9"/>
+  <rect x="944" y="150" width="256" height="490" fill="#e6ecee" opacity="0.7"/>
+
+  <!-- towel dispenser (Marplast 903) -->
+  <rect x="165" y="190" width="180" height="240" rx="20" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <rect x="190" y="215" width="130" height="40" rx="8" fill="#eef3f4"/>
+  <rect x="210" y="410" width="90" height="12" rx="6" fill="#9aa6ab"/>
+  <path d="M222 418h66l-6 70h-54z" fill="#ffffff" stroke="#c4cbcc" stroke-width="3"/>
+
+  <!-- waste bin (Marplast 740) -->
+  <rect x="195" y="500" width="130" height="140" rx="14" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <rect x="185" y="488" width="150" height="22" rx="10" fill="#e3e8ea" stroke="#9aa6ab" stroke-width="4"/>
+
+  <!-- mirror -->
+  <rect x="455" y="130" width="320" height="240" rx="16" fill="#d3e6ec" stroke="#b3c2c7" stroke-width="5"/>
+  <path d="M500 160l80-0-120 120z M560 160h40l-140 140v-40z" fill="#ffffff" opacity="0.55"/>
+
+  <!-- sink -->
+  <rect x="390" y="470" width="450" height="34" rx="8" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <ellipse cx="615" cy="487" rx="110" ry="10" fill="#e3e8ea"/>
+  <rect x="410" y="504" width="410" height="136" fill="#f4f6f5" stroke="#c4cbcc" stroke-width="3"/>
+  <path d="M600 470v-48a14 14 0 0 1 14-14h26" fill="none" stroke="#8d989c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- liquid soap dispenser (Marplast 912) -->
+  <rect x="822" y="270" width="86" height="150" rx="16" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <rect x="840" y="295" width="50" height="60" rx="6" fill="#eaf5e4"/>
+  <rect x="856" y="420" width="18" height="20" rx="4" fill="#9aa6ab"/>
+
+  <!-- jumbo toilet roll dispenser (Marplast 907) -->
+  <circle cx="1040" cy="330" r="78" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <circle cx="1040" cy="330" r="30" fill="#eef3f4" stroke="#c4cbcc" stroke-width="3"/>
+  <path d="M1020 406h40v30h-40z" fill="#ffffff" stroke="#c4cbcc" stroke-width="3"/>
+
+  <!-- toilet -->
+  <rect x="1010" y="455" width="110" height="70" rx="10" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <path d="M990 525h150c0 50-30 80-75 80s-75-30-75-80z" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <rect x="1035" y="600" width="60" height="40" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+
+  <!-- toilet brush holder (Marplast 929) -->
+  <rect x="1150" y="540" width="38" height="100" rx="10" fill="#ffffff" stroke="#9aa6ab" stroke-width="4"/>
+  <path d="M1169 540v-40" stroke="#8d989c" stroke-width="8" stroke-linecap="round"/>
+</svg>
