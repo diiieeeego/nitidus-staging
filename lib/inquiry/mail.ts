@@ -55,6 +55,11 @@ export async function sendInquiryMail(inquiry: Inquiry, context: { productLabel?
       .map(([k, v]) => `<tr><th align="left">${escapeHtml(k)}</th><td>${escapeHtml(v)}</td></tr>`)
       .join("")}</table>` + `<p style="white-space:pre-wrap">${escapeHtml(inquiry.message)}</p>`;
 
+  if (env.MAIL_TRANSPORT === "disabled") {
+    // No SMTP configured: the caller shows the visitor the phone/email fallback.
+    throw new Error("mail transport disabled (SMTP not configured)");
+  }
+
   if (env.MAIL_TRANSPORT === "log") {
     console.info(`[inquiry:log] to=${env.INQUIRY_EMAIL} reply-to=${inquiry.email}\nSubject: ${subject}\n${text}`);
     return;

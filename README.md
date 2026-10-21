@@ -111,12 +111,15 @@ Ne koristi se: bijeli tekst na `#74C054` (2.23) ni na `#FDBA37` (1.71). Tokeni s
 
    | Varijabla | Obavezno | Napomena |
    |---|---|---|
-   | `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | da | SMTP račun s kojeg se šalju upiti |
+   | `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | za slanje upita | SMTP račun s kojeg se šalju upiti |
    | `INQUIRY_EMAIL` | ne | zadano `nitidusdoo@gmail.com` |
-   | `IP_HASH_SALT` | da | nasumičan string ≥ 16 znakova |
+   | `IP_HASH_SALT` | ne | nasumičan string ≥ 16 znakova; bez njega nasumičan po procesu |
    | `SITE_URL` | preporučeno | npr. `https://nitidus.hr`; bez njega se koristi Vercel production domena |
 
-   Bez SMTP varijabli build pada (namjerno). `MAIL_TRANSPORT=log` nije dopušten u produkciji.
+   Stranica se može deployati **bez ijedne varijable**. Dok SMTP nije postavljen (`MAIL_TRANSPORT=disabled`),
+   forma ne šalje mail nego posjetitelju prikazuje telefon i e-mail. Nakon dodavanja SMTP varijabli
+   napravi **Redeploy**. Postavi li se `MAIL_TRANSPORT=smtp` izričito, build pada ako SMTP fali.
+   `MAIL_TRANSPORT=log` nije dopušten u produkciji.
 4. Domena: dodaj `nitidus.hr` u Project → Domains i postavi `SITE_URL`.
 
 **SMTP napomena:** za Gmail treba App Password (2FA uključen); za vlastitu domenu bolje je koristiti
