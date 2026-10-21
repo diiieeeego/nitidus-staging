@@ -43,6 +43,22 @@ type Entry = {
   sku: string; // normalized, without spaces
   nameWords: string[];
   otherWords: string[];
+  categoryWords: string[];
+};
+
+/** Everyday words people search with → words used in the catalog (normalized). */
+const SYNONYMS: Record<string, string[]> = {
+  cistac: ["ciscenje", "sredstvo"],
+  cistaci: ["ciscenje", "sredstvo"],
+  ubrus: ["rucnici"],
+  ubrusi: ["rucnici"],
+  dozator: ["dispenzer", "dozator"],
+  dispenzer: ["dispenzer", "dozator", "drzac"],
+  dispenser: ["dispenzer", "dispenser"],
+  wc: ["wc", "toaletni"],
+  deterdzent: ["sredstvo", "deterdzent"],
+  krpa: ["krpa", "krpe"],
+  paper: ["paper", "tissue", "roll"],
 };
 
 const indexes = new Map<Locale, Entry[]>();
@@ -54,15 +70,20 @@ function getIndex(locale: Locale): Entry[] {
       slug: p.slug,
       sku: normalize(p.sku ?? "").replace(/ /g, ""),
       nameWords: normalize(pick(p.name, locale)).split(" ").filter(Boolean),
-      otherWords: normalize(
-        [pick(p.short_description, locale), ...p.variants.map((v) => pick(v.label, locale)), p.category].join(" "),
-      )
+      otherWords: normalize([pick(p.short_description, locale), ...p.variants.map((v) => pick(v.label, locale))].join(" "))
         .split(" ")
         .filter(Boolean),
+      categoryWords: normalize(p.category).split(" ").filter(Boolean),
     }));
     indexes.set(locale, index);
   }
   return index;
+}
+
+function commonPrefix(a: string, b: string): number {
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  return i;
 }
 
 /** Best match quality of one query token against a word list (0 = no match). */
@@ -71,6 +92,9 @@ function tokenScore(token: string, words: string[]): number {
   for (const w of words) {
     if (w === token) return 3;
     if (w.startsWith(token)) best = Math.max(best, 2.2);
+    // Croatian inflection: "dezinfekcija" ~ "dezinfekciju", "rucnik" ~ "rucnici"
+    else if (token.length >= 4 && commonPrefix(token, w) >= Math.max(4, Math.min(token.length, w.length) - 2))
+      best = Math.max(best, 2);
     else if (token.length >= 3 && w.includes(token)) best = Math.max(best, 1.5);
     else if (token.length >= 4) {
       const sim = similarity(token, w);
@@ -86,23 +110,33 @@ export function searchProducts(query: string, locale: Locale, limit = 20): Produ
   const tokens = q.split(" ");
   const compact = q.replace(/ /g, "");
 
-  const scored: { slug: string; score: number }[] = [];
+  const full: { slug: string; score: number }[] = [];
+  const partial: { slug: string; score: number }[] = [];
   for (const e of getIndex(locale)) {
     let score = 0;
     if (e.sku && e.sku === compact) score += 1000;
     else if (e.sku && compact.length >= 2 && e.sku.startsWith(compact)) score += 500;
 
-    let allTokensMatch = true;
+    let matched = 0;
     for (const t of tokens) {
-      const s = Math.max(tokenScore(t, e.nameWords) * 2, tokenScore(t, e.otherWords));
-      if (s === 0) allTokensMatch = false;
+      let s = 0;
+      for (const alt of [t, ...(SYNONYMS[t] ?? [])]) {
+        s = Math.max(
+          s,
+          tokenScore(alt, e.nameWords) * 2,
+          tokenScore(alt, e.otherWords),
+          tokenScore(alt, e.categoryWords) * 0.6,
+        );
+      }
+      if (s > 0) matched++;
       score += s;
     }
-    if (score >= 500 || (allTokensMatch && score > 0)) {
-      if (e.nameWords.join(" ").startsWith(q)) score += 5;
-      scored.push({ slug: e.slug, score });
-    }
+    if (e.nameWords.join(" ").startsWith(q)) score += 5;
+    if (score >= 500 || (matched === tokens.length && score > 0)) full.push({ slug: e.slug, score });
+    else if (matched > 0 && score >= 2) partial.push({ slug: e.slug, score });
   }
+  // Only fall back to partial matches when nothing matches every word.
+  const scored = full.length ? full : partial;
 
   const bySlug = new Map(activeProducts().map((p) => [p.slug, p]));
   return scored
