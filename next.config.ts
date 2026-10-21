@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
   },
   cacheComponents: true,
+  // Staging/previews: keep everything (pages, images, files) out of search engines.
+  // Production opts in with ALLOW_INDEXING=true (see lib/seo.ts).
+  async headers() {
+    if (process.env.ALLOW_INDEXING === "true") return [];
+    return [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
+  },
   partialPrefetching: true,
   turbopack: {
     rules: {

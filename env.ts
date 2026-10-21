@@ -32,6 +32,8 @@ const schema = z
     IP_HASH_SALT: z.string().min(16).default(() => randomBytes(24).toString("hex")),
     /** Public origin, e.g. https://nitidus.hr (falls back to the Vercel production URL). */
     SITE_URL: z.url().optional(),
+    /** "true" only on the production deployment; anything else is noindex (staging, previews). */
+    ALLOW_INDEXING: z.enum(["true", "false"]).optional(),
     VERCEL_ENV: z.enum(["production", "preview", "development"]).optional(),
   })
   .transform((env) => ({

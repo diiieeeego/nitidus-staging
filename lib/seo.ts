@@ -1,5 +1,13 @@
 import { routing } from "@/i18n/routing";
 
+/**
+ * Search engine indexing is opt-in: only the production deployment sets ALLOW_INDEXING=true.
+ * Everything else (staging, previews, local) is noindex.
+ */
+export function allowIndexing(): boolean {
+  return process.env.ALLOW_INDEXING === "true";
+}
+
 /** Absolute site origin without trailing slash, e.g. https://nitidus.hr */
 export function siteUrl(): string {
   const fromEnv =

@@ -7,7 +7,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { routing } from "@/i18n/routing";
-import { siteUrl, alternates } from "@/lib/seo";
+import { allowIndexing, siteUrl, alternates } from "@/lib/seo";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -31,6 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: t("description"),
     alternates: alternates(locale, ""),
     openGraph: { siteName: t("siteName"), locale, type: "website" },
+    ...(allowIndexing() ? {} : { robots: { index: false, follow: false } }),
   };
 }
 

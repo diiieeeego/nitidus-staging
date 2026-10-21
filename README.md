@@ -121,6 +121,9 @@ Ne koristi se: bijeli tekst na `#74C054` (2.23) ni na `#FDBA37` (1.71). Tokeni s
    napravi **Redeploy**. Postavi li se `MAIL_TRANSPORT=smtp` izričito, build pada ako SMTP fali.
    `MAIL_TRANSPORT=log` nije dopušten u produkciji.
 4. Domena: dodaj `nitidus.hr` u Project → Domains i postavi `SITE_URL`.
+5. **Indeksiranje je isključeno dok se ne postavi `ALLOW_INDEXING=true`** (samo na produkciji).
+   Bez toga sve stranice i datoteke šalju `X-Robots-Tag: noindex, nofollow`, HTML ima `noindex`
+   meta tag, a `robots.txt` je `Disallow: /` – staging i preview deployi ne ulaze u tražilice.
 
 **SMTP napomena:** za Gmail treba App Password (2FA uključen); za vlastitu domenu bolje je koristiti
 SMTP hosting providera i `SMTP_FROM` s te domene (SPF/DKIM), inače mailovi mogu završiti u spamu.
