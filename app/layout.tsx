@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nitidus",
-  description: "Nitidus d.o.o. Highijenske i sanitarne potrepštine,
+  description: "Nitidus d.o.o. – higijenske i sanitarne potrepštine",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
