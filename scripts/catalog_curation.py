@@ -765,6 +765,11 @@ PRODUCTS = [
      "name": n("Čaša Symetrie 0,45 dl", "Symetrie glass 0.45 dl")},
 ]
 
+# Source images damaged in the .docx: media path -> crop box (left, top, right, bottom).
+IMAGE_CROPS = {
+    "word/media/image3.jpeg": (0, 0, 492, 405),  # CC21VX – truncated JPEG, corrupt band at the bottom
+}
+
 # Rows that legitimately feed two products (one cell lists holder + mop).
 SHARED_ROWS = {"Vermop držač Mop Damp 80 cm"}
 

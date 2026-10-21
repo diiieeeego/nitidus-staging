@@ -148,6 +148,8 @@ def first_sentence(lines: list[str], limit: int = 160) -> str:
 def save_webp(z: zipfile.ZipFile, member: str, dest: Path) -> None:
     im = Image.open(io.BytesIO(z.read(member)))
     im.load()
+    if member in cur.IMAGE_CROPS:
+        im = im.crop(cur.IMAGE_CROPS[member])
     if getattr(im, "is_animated", False):
         im.seek(0)
     has_alpha = im.mode in ("RGBA", "LA", "P") and (
