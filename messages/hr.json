@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "siteName": "Nitidus",
+    "title": "Nitidus d.o.o. – higijenske i sanitarne potrepštine, Zadar",
+    "description": "Profesionalno opremanje poslovnih, javnih i ugostiteljskih prostora higijenskim i sanitarnim potrepštinama: papirnata konfekcija, kemija, dispenzeri i Vermop sustavi za čišćenje."
+  },
+  "Common": {
+    "skipLink": "Preskoči na sadržaj",
+    "language": "Jezik",
+    "languageNames": { "hr": "Hrvatski", "en": "English" },
+    "openMenu": "Otvori izbornik",
+    "closeMenu": "Zatvori izbornik",
+    "priceOnRequest": "Cijena na upit",
+    "view": "Pogledaj",
+    "home": "Naslovnica",
+    "imagePlaceholder": "Slika uskoro"
+  },
+  "Nav": {
+    "label": "Glavna navigacija",
+    "products": "Proizvodi",
+    "categories": "Kategorije",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "allProducts": "Svi proizvodi"
+  },
+  "Footer": {
+    "tagline": "Higijenske i sanitarne potrepštine za poslovne, javne i ugostiteljske prostore.",
+    "contact": "Kontakt",
+    "categories": "Kategorije",
+    "rights": "Sva prava pridržana.",
+    "prices": "Sve cijene su na upit."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Nitidus d.o.o. · Zadar",
+      "title": "Higijena i oprema za profesionalne prostore",
+      "subtitle": "Opremamo poslovne, javne i ugostiteljske prostore higijenskim i sanitarnim potrepštinama – uz brzu dostavu i redovitu dopunu zaliha.",
+      "ctaProducts": "Pogledaj proizvode",
+      "ctaQuote": "Zatraži ponudu"
+    },
+    "scenes": {
+      "title": "Udarni proizvodi",
+      "subtitle": "Kliknite oznaku na slici za proizvod i potrošne artikle koji mu pristaju.",
+      "pinLabel": "{name} – prikaži proizvod",
+      "editHint": "Način uređivanja pinova: kliknite na sliku za koordinate.",
+      "featuredList": "Svi udarni proizvodi"
+    },
+    "brands": {
+      "title": "Brendovi s kojima radimo",
+      "pause": "Zaustavi pomicanje",
+      "play": "Pokreni pomicanje"
+    },
+    "delivery": {
+      "title": "Dostava i plaćanje",
+      "text": "Brza dostava na vašu adresu i redovita dopuna zaliha za sanitarne sustave. Uvjete dostave i plaćanja dogovaramo prema vašim potrebama.",
+      "cta": "Dogovorite dostavu"
+    },
+    "about": {
+      "title": "O nama",
+      "text": "Nitidus je pravo rješenje za poslovanje i nabavu potrošnog materijala koji dostavljamo na vašu adresu – za bezbrižno poslovanje u ugostiteljstvu, industriji i svim djelatnostima u kojima se koristi potrošni materijal.",
+      "services": {
+        "delivery": "Prodaja i brza dostava higijenskog i sanitarnog materijala",
+        "refill": "Redovito održavanje i dopuna zaliha za sanitarne sustave",
+        "equip": "Opremanje škola, vrtića, poslovnih i ugostiteljskih objekata"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Javite nam se za ponudu, savjet ili artikl koji ne vidite na stranici.",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adresa"
+    }
+  },
+  "Products": {
+    "title": "Proizvodi",
+    "description": "Katalog higijenskih i sanitarnih potrepština. Sve cijene su na upit.",
+    "allCategories": "Sve kategorije",
+    "filterLabel": "Filtriraj po kategoriji",
+    "count": "{count, plural, one {# proizvod} few {# proizvoda} other {# proizvoda}}",
+    "empty": "U ovoj kategoriji trenutno nema proizvoda.",
+    "pagination": "Stranice",
+    "previous": "Prethodna",
+    "next": "Sljedeća",
+    "page": "Stranica {page} od {pageCount}",
+    "variantsCount": "{count, plural, one {# varijanta} few {# varijante} other {# varijanti}}"
+  },
+  "Product": {
+    "breadcrumb": "Putanja",
+    "sku": "Šifra",
+    "brand": "Brend",
+    "category": "Kategorija",
+    "requestQuote": "Zatražite ponudu",
+    "quoteHint": "Pošaljite upit i javit ćemo vam se s ponudom.",
+    "specs": "Specifikacije",
+    "description": "Opis",
+    "variants": "Varijante",
+    "colors": "Boja",
+    "sizes": "Veličina",
+    "options": "Izvedba",
+    "accepts": "Kompatibilni potrošni artikli",
+    "acceptsHint": "Artikli koji pristaju u ovaj proizvod.",
+    "fitsInto": "Kompatibilno s",
+    "fitsIntoHint": "Dispenzeri i držači u koje ovaj artikl pristaje.",
+    "related": "Povezani proizvodi",
+    "manufacturerPage": "Stranica proizvođača",
+    "gallery": "Galerija",
+    "showImage": "Prikaži sliku {index}",
+    "linksUnavailable": "Povezane proizvode trenutno nije moguće učitati."
+  },
+  "Specs": {
+    "ply": "Broj slojeva",
+    "fold": "Preklop",
+    "format": "Format",
+    "color": "Boja",
+    "material": "Materijal",
+    "sheets": "Broj listića",
+    "pieces": "Broj komada",
+    "length": "Duljina",
+    "width": "Širina role",
+    "sheet_size": "Dimenzije listića",
+    "pack": "Pakiranje",
+    "pack_unit": "Paket",
+    "dimensions": "Dimenzije",
+    "manufacturer_code": "Šifra proizvođača",
+    "line": "Linija"
+  },
+  "Search": {
+    "label": "Pretraži proizvode",
+    "placeholder": "Pretraži proizvode ili šifru…",
+    "submit": "Traži",
+    "title": "Pretraga",
+    "resultsFor": "Rezultati za „{query}”",
+    "resultCount": "{count, plural, one {# rezultat} few {# rezultata} other {# rezultata}}",
+    "minChars": "Upišite barem {min} znaka.",
+    "loading": "Tražim…",
+    "showAll": "Prikaži sve rezultate",
+    "noResultsTitle": "Niste pronašli traženo?",
+    "noResultsText": "Možda nije na stranici, ali je na skladištu — javite nam se.",
+    "noResultsCta": "Pošaljite upit",
+    "error": "Pretraga trenutno nije dostupna.",
+    "suggestions": "Prijedlozi",
+    "emptyQuery": "Upišite naziv proizvoda ili šifru u tražilicu."
+  },
+  "Inquiry": {
+    "title": "Pošaljite upit",
+    "productTitle": "Upit za proizvod",
+    "searchTitle": "Upit za artikl koji niste pronašli",
+    "name": "Ime i prezime",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "company": "Tvrtka",
+    "optional": "neobavezno",
+    "message": "Poruka",
+    "product": "Proizvod",
+    "variant": "Varijanta",
+    "searchQuery": "Traženi pojam",
+    "submit": "Pošalji upit",
+    "sending": "Šaljem…",
+    "success": "Hvala! Upit je poslan – javit ćemo vam se uskoro.",
+    "privacy": "Podatke koristimo isključivo za odgovor na vaš upit.",
+    "defaultProductMessage": "Molim ponudu za: {product}",
+    "defaultSearchMessage": "Tražim artikl: {query}",
+    "errors": {
+      "required": "Obavezno polje.",
+      "email": "Upišite ispravnu e-mail adresu.",
+      "tooShort": "Poruka je prekratka.",
+      "tooLong": "Tekst je predugačak.",
+      "invalid": "Provjerite označena polja.",
+      "tooFast": "Molimo pričekajte nekoliko sekundi pa pošaljite ponovno.",
+      "rateLimited": "Poslali ste previše upita. Pokušajte ponovno za nekoliko minuta ili nas nazovite.",
+      "sendFailed": "Upit nažalost nije poslan. Nazovite nas na {phone} ili pišite na {email}."
+    }
+  },
+  "Errors": {
+    "title": "Nešto je pošlo po zlu",
+    "text": "Došlo je do pogreške pri učitavanju stranice.",
+    "retry": "Pokušaj ponovno",
+    "notFoundTitle": "Stranica nije pronađena",
+    "notFoundText": "Stranica koju tražite ne postoji ili je premještena.",
+    "productNotFoundTitle": "Proizvod nije pronađen",
+    "productNotFoundText": "Proizvod ne postoji ili više nije u ponudi.",
+    "backHome": "Natrag na naslovnicu",
+    "browseProducts": "Pregledaj proizvode"
+  }
+}

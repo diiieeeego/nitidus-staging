@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "siteName": "Nitidus",
+    "title": "Nitidus d.o.o. – hygiene and washroom supplies, Zadar",
+    "description": "Professional hygiene and washroom supplies for offices, public spaces and hospitality: paper products, cleaning chemicals, dispensers and Vermop cleaning systems."
+  },
+  "Common": {
+    "skipLink": "Skip to content",
+    "language": "Language",
+    "languageNames": { "hr": "Hrvatski", "en": "English" },
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "priceOnRequest": "Price on request",
+    "view": "View",
+    "home": "Home",
+    "imagePlaceholder": "Image coming soon"
+  },
+  "Nav": {
+    "label": "Main navigation",
+    "products": "Products",
+    "categories": "Categories",
+    "about": "About us",
+    "contact": "Contact",
+    "allProducts": "All products"
+  },
+  "Footer": {
+    "tagline": "Hygiene and washroom supplies for offices, public spaces and hospitality.",
+    "contact": "Contact",
+    "categories": "Categories",
+    "rights": "All rights reserved.",
+    "prices": "All prices on request."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Nitidus d.o.o. · Zadar",
+      "title": "Hygiene supplies for professional spaces",
+      "subtitle": "We equip offices, public spaces and hospitality venues with hygiene and washroom supplies – with fast delivery and regular restocking.",
+      "ctaProducts": "Browse products",
+      "ctaQuote": "Request a quote"
+    },
+    "scenes": {
+      "title": "Featured products",
+      "subtitle": "Click a marker in the picture to see the product and the consumables that fit it.",
+      "pinLabel": "{name} – view product",
+      "editHint": "Pin edit mode: click the image to get coordinates.",
+      "featuredList": "All featured products"
+    },
+    "brands": {
+      "title": "Brands we work with",
+      "pause": "Pause scrolling",
+      "play": "Resume scrolling"
+    },
+    "delivery": {
+      "title": "Delivery and payment",
+      "text": "Fast delivery to your address and regular restocking of washroom systems. Delivery and payment terms are arranged to suit your needs.",
+      "cta": "Arrange delivery"
+    },
+    "about": {
+      "title": "About us",
+      "text": "Nitidus is the right partner for sourcing consumables delivered to your address – for worry-free operations in hospitality, industry and any business that relies on consumable supplies.",
+      "services": {
+        "delivery": "Sales and fast delivery of hygiene and washroom supplies",
+        "refill": "Regular maintenance and restocking of washroom systems",
+        "equip": "Equipping schools, kindergartens, offices and hospitality venues"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in touch for a quote, advice or an item you can't find on the site.",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    }
+  },
+  "Products": {
+    "title": "Products",
+    "description": "Catalogue of hygiene and washroom supplies. All prices on request.",
+    "allCategories": "All categories",
+    "filterLabel": "Filter by category",
+    "count": "{count, plural, one {# product} other {# products}}",
+    "empty": "There are currently no products in this category.",
+    "pagination": "Pages",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page} of {pageCount}",
+    "variantsCount": "{count, plural, one {# variant} other {# variants}}"
+  },
+  "Product": {
+    "breadcrumb": "Breadcrumb",
+    "sku": "Code",
+    "brand": "Brand",
+    "category": "Category",
+    "requestQuote": "Request a quote",
+    "quoteHint": "Send us an inquiry and we will get back to you with a quote.",
+    "specs": "Specifications",
+    "description": "Description",
+    "variants": "Variants",
+    "colors": "Colour",
+    "sizes": "Size",
+    "options": "Version",
+    "accepts": "Compatible consumables",
+    "acceptsHint": "Items that fit this product.",
+    "fitsInto": "Compatible with",
+    "fitsIntoHint": "Dispensers and holders this item fits.",
+    "related": "Related products",
+    "manufacturerPage": "Manufacturer page",
+    "gallery": "Gallery",
+    "showImage": "Show image {index}",
+    "linksUnavailable": "Related products could not be loaded right now."
+  },
+  "Specs": {
+    "ply": "Ply",
+    "fold": "Fold",
+    "format": "Format",
+    "color": "Colour",
+    "material": "Material",
+    "sheets": "Sheets",
+    "pieces": "Pieces",
+    "length": "Length",
+    "width": "Roll width",
+    "sheet_size": "Sheet size",
+    "pack": "Pack",
+    "pack_unit": "Bundle",
+    "dimensions": "Dimensions",
+    "manufacturer_code": "Manufacturer code",
+    "line": "Line"
+  },
+  "Search": {
+    "label": "Search products",
+    "placeholder": "Search products or code…",
+    "submit": "Search",
+    "title": "Search",
+    "resultsFor": "Results for “{query}”",
+    "resultCount": "{count, plural, one {# result} other {# results}}",
+    "minChars": "Type at least {min} characters.",
+    "loading": "Searching…",
+    "showAll": "Show all results",
+    "noResultsTitle": "Can't find what you're looking for?",
+    "noResultsText": "It may not be on the site but could still be in stock — get in touch.",
+    "noResultsCta": "Send an inquiry",
+    "error": "Search is currently unavailable.",
+    "suggestions": "Suggestions",
+    "emptyQuery": "Type a product name or code into the search box."
+  },
+  "Inquiry": {
+    "title": "Send an inquiry",
+    "productTitle": "Product inquiry",
+    "searchTitle": "Inquiry for an item you couldn't find",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "optional": "optional",
+    "message": "Message",
+    "product": "Product",
+    "variant": "Variant",
+    "searchQuery": "Searched for",
+    "submit": "Send inquiry",
+    "sending": "Sending…",
+    "success": "Thank you! Your inquiry has been sent – we will get back to you soon.",
+    "privacy": "We use your details only to reply to your inquiry.",
+    "defaultProductMessage": "Please send me a quote for: {product}",
+    "defaultSearchMessage": "I am looking for: {query}",
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "tooShort": "The message is too short.",
+      "tooLong": "The text is too long.",
+      "invalid": "Please check the highlighted fields.",
+      "tooFast": "Please wait a few seconds and try again.",
+      "rateLimited": "You have sent too many inquiries. Please try again in a few minutes or give us a call.",
+      "sendFailed": "Unfortunately your inquiry was not sent. Call us on {phone} or email {email}."
+    }
+  },
+  "Errors": {
+    "title": "Something went wrong",
+    "text": "An error occurred while loading the page.",
+    "retry": "Try again",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist or has moved.",
+    "productNotFoundTitle": "Product not found",
+    "productNotFoundText": "The product does not exist or is no longer available.",
+    "backHome": "Back to home",
+    "browseProducts": "Browse products"
+  }
+}

@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
+/*
+ * Brand palette. Contrast (WCAG 2.x) of the allowed pairs:
+ *   ink #171717 on brand-green #74C054   8.03:1  – green buttons use dark text
+ *   white on brand-green-700 #3F7A2A     5.21:1  – green buttons/links with white text
+ *   ink on brand-amber #FDBA37          10.46:1  – amber CTA highlight (dark text only)
+ *   brand-blue #3213DA on white          9.37:1  – links, secondary buttons (white text on blue too)
+ *   brand-blue on brand-amber            5.47:1
+ * Never: white on brand-green (2.23) or white on brand-amber (1.71).
+ */
+@theme {
+  --color-brand-green: #74c054;
+  --color-brand-green-700: #3f7a2a;
+  --color-brand-green-50: #eef7ea;
+  --color-brand-amber: #fdba37;
+  --color-brand-amber-50: #fff6e0;
+  --color-brand-blue: #3213da;
+  --color-brand-blue-50: #eeebfd;
+
+  --color-ink: #171717;
+  --color-muted: #525252; /* 7.81:1 on white */
+  --color-surface: #f6f7f5;
+  --color-line: #e2e5df;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* sticky header */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: background-color 150ms, color 150ms, border-color 150ms;
+}
+
+@utility btn-primary {
+  background: var(--color-brand-green-700);
+  color: #ffffff;
+  &:hover {
+    background: #336322;
+  }
+}
+
+@utility btn-accent {
+  background: var(--color-brand-amber);
+  color: var(--color-ink);
+  &:hover {
+    background: #f5a90f;
+  }
+}
+
+@utility btn-secondary {
+  background: #ffffff;
+  color: var(--color-brand-blue);
+  border: 2px solid var(--color-brand-blue);
+  &:hover {
+    background: var(--color-brand-blue-50);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
