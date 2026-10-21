@@ -20,8 +20,8 @@ export async function FeaturedScenes() {
       <p className="mt-2 max-w-2xl text-muted">{t("subtitle")}</p>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        {scenes.map((scene, i) => (
-          <figure key={scene.slug} className={i === 0 ? "lg:col-span-2" : undefined}>
+        {scenes.map((scene) => (
+          <figure key={scene.slug}>
             <SceneCanvas
               aspect={scene.aspect}
               sceneSlug={scene.slug}
@@ -35,7 +35,7 @@ export async function FeaturedScenes() {
                 src={scene.image}
                 alt={scene.alt}
                 fill
-                sizes={i === 0 ? "(min-width: 1280px) 1232px, 100vw" : "(min-width: 1024px) 50vw, 100vw"}
+                sizes="(min-width: 1280px) 616px, (min-width: 1024px) 50vw, 100vw"
                 unoptimized={scene.image.endsWith(".svg")}
                 className="object-cover"
               />

@@ -74,13 +74,21 @@ Marplast dispenzeri + po jedan ključni potrošni artikl po tipu.
 ### Scene s pinovima (naslovna)
 
 `data/scenes.json` – slika scene, omjer, naslov/alt (hr/en) i pinovi (`product`, `x_pct`, `y_pct`).
-Trenutno su to ilustracije-placeholderi u `public/scenes/*.svg`. Za nove fotografije:
+Fotografije prostorija su u `docs/dispenseri_nitidus/skincollection_*.jpg`; `scripts/prepare_scenes.py`
+ih reže na 4:3 i sprema u `public/scenes/*.webp` (dio `npm run catalog`). Koordinate pinova su postotci
+**izrezane** slike. Za novu scenu ili pomicanje pinova:
 
-1. stavi sliku u `public/scenes/` i upiši `image` + `aspect` (npr. `"3/2"`),
+1. dodaj sliku i izrez u `SCENES` u `scripts/prepare_scenes.py`, pokreni `npm run catalog`,
 2. `npm run dev`, otvori `http://localhost:3000/hr?editPins=1`,
 3. klik na sliku ispisuje `x_pct` / `y_pct` (na slici i u konzoli preglednika) – prepiši u `hotspots`.
 
 Pin čiji je proizvod neaktivan ne prikazuje se.
+
+### Slike Marplast proizvoda
+
+`docs/dispenseri_nitidus/<šifra>-<boja>_….jpg` → `IMAGES` u `scripts/import_marplast.py` (prva slika je
+glavna). Modeli 885, 911, 923, 943 i 949 nisu u Marplast popisu – dodani su prema fotografijama
+(`FROM_IMAGES`), a njihove veze imaju status „provjeriti“.
 
 ## Paleta i kontrast (WCAG AA)
 
@@ -123,4 +131,4 @@ Odgovor na upit ide izravno posjetitelju (`reply-to`).
   unutar root layouta s dinamičkim segmentom (`app/[locale]`) renderira tek na klijentu (HTML je
   `__next_error__` shell). Reproducira se i na minimalnom projektu – provjeriti nakon nadogradnje Nexta.
 - Logotip (`components/layout/Logo.tsx`) i logotipi Marplast/Kobold/Labud su placeholderi do dostave.
-- Marplast proizvodi i Kraft asortiman nemaju slike (placeholder).
+- Kraft asortiman i dio Marplast proizvoda nemaju slike (placeholder).

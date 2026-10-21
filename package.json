@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "catalog": "python3 -I scripts/extract_docx.py && python3 -I scripts/import_marplast.py && python3 -I scripts/build_links.py"
+    "catalog": "python3 -I scripts/extract_docx.py && python3 -I scripts/import_marplast.py && python3 -I scripts/build_links.py && python3 -I scripts/prepare_scenes.py"
   },
   "dependencies": {
     "next": "16.4.2",

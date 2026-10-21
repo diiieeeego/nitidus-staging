@@ -88,7 +88,9 @@ def main() -> None:
     for a, b in RELATED_PAIRS:
         relations += [{"product": a, "related": b}, {"product": b, "related": a}]
 
-    featured = [p["slug"] for p in marplast["products"] if p["kind"] == "dispenser"] + FEATURED_CONSUMABLES
+    dispensers = [p for p in marplast["products"] if p["kind"] == "dispenser"]
+    dispensers.sort(key=lambda p: not p["images"])  # photographed dispensers first (stable sort)
+    featured = [p["slug"] for p in dispensers] + FEATURED_CONSUMABLES
     udarni = ROOT / "docs" / "udarni.txt"
     if udarni.exists():
         by_sku = {p["sku"]: s for s, p in products.items() if p["sku"]}

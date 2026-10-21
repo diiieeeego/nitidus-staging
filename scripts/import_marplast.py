@@ -12,6 +12,7 @@ Usage: python3 scripts/import_marplast.py [docs/marplast_sifre.xlsx]
 """
 from __future__ import annotations
 
+import io
 import json
 import sys
 import zipfile
@@ -20,6 +21,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from PIL import Image  # noqa: E402
+
 from catalog_curation import COLORS  # noqa: E402
 from extract_docx import slugify  # noqa: E402
 
@@ -135,10 +138,98 @@ MARPLAST = {
             "desc": n("Poklopac na preklop za pravokutnu kantu art. 579.", "Swing lid for rectangular bin art. 579.")},
 }
 
+# Product photos in docs/dispenseri_nitidus (supplied by Nitidus), first = main image.
+IMAGE_DIR = ROOT / "docs" / "dispenseri_nitidus"
+IMAGES = {
+    "901": ["901-bianco_dispenser-carta-asciugamani_marplast.jpg", "901-stone_dispenser-carta-asciugamani_marplast.jpg"],
+    "914": ["914-stone_dispenser-sapone-a-ricarica_marplast.jpg"],
+    "885": ["885_sand_towel_paper_dispesner_marplast_automatic.png"],
+    "911": ["911-bianco_dispenser-sapone-a-riempimento_marplast.jpg"],
+    "923": ["923-sand_dispenser-sapone-a-ricarica.jpg"],
+    "943": ["943-carbon_dispenser-sapone-a-riempimento_marplast.jpg"],
+    "949": ["949-carbon_dispenser-carta-compact_towel_marplast.jpg"],
+}
+
+# Models known only from the supplied photos (not in the xlsx). Names come from the
+# Italian file names; colours only where the photo shows an allowed colour.
+FROM_IMAGES = {
+    "885": {"category": "dispenzeri-rucnici", "kind": "dispenser", "type": "towel_autocut", "line": "Skin",
+            "colors": [],
+            "name": n("Marplast Skin automatski dispenzer za ručnike u roli (senzor)",
+                      "Marplast Skin automatic roll towel dispenser (sensor)"),
+            "desc": n("Beskontaktni dispenzer za papirnate ručnike u roli sa senzorom, linija Skin.",
+                      "Touch-free sensor paper towel roll dispenser, Skin line."),
+            "fits": ["rucnici-u-roli-ccac130"],
+            "check": "Model samo sa slike (boja Sand) – provjeriti kompatibilnost role i dostupne boje."},
+    "911": {"category": "dozatori-sapuna", "kind": "dispenser", "type": "soap_bulk", "line": "Skin",
+            "colors": ["bijela"],
+            "name": n("Marplast Skin dozator sapuna s punjenjem", "Marplast Skin refillable soap dispenser"),
+            "desc": n("Dozator tekućeg sapuna koji se puni iz kanistra, linija Skin.",
+                      "Refillable liquid soap dispenser (topped up from a canister), Skin line."),
+            "fits": ["tekuci-sapun-za-ruke-5-l"],
+            "check": "Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."},
+    "923": {"category": "dozatori-sapuna", "kind": "dispenser", "type": "soap_liquid", "line": "Skin",
+            "colors": [],
+            "name": n("Marplast Skin automatski dozator sapuna za uloške (senzor)",
+                      "Marplast Skin automatic cartridge soap dispenser (sensor)"),
+            "desc": n("Beskontaktni dozator sapuna za uloške sa senzorom, linija Skin.",
+                      "Touch-free sensor soap dispenser for cartridges, Skin line."),
+            "fits": ["tekuci-sapun-za-ruke-za-drzace-0-5-l"],
+            "check": "Model samo sa slike (boja Sand) – provjeriti koji uložak prima i dostupne boje."},
+    "943": {"category": "dozatori-sapuna", "kind": "dispenser", "type": "soap_bulk", "line": "Skin",
+            "colors": ["carbon"],
+            "name": n("Marplast Skin dozator sapuna s punjenjem i polugom",
+                      "Marplast Skin refillable soap dispenser with lever"),
+            "desc": n("Dozator tekućeg sapuna s polugom koji se puni iz kanistra, linija Skin.",
+                      "Lever-operated refillable liquid soap dispenser (topped up from a canister), Skin line."),
+            "fits": ["tekuci-sapun-za-ruke-5-l"],
+            "check": "Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."},
+    "949": {"category": "dispenzeri-rucnici", "kind": "dispenser", "type": "towel_vfold", "line": "Skin",
+            "colors": ["carbon"],
+            "name": n("Marplast Skin dispenzer za složive ručnike – Compact",
+                      "Marplast Skin interfold towel dispenser – Compact"),
+            "desc": n("Kompaktni dispenzer za složive papirnate ručnike, linija Skin.",
+                      "Compact dispenser for interfolded paper towels, Skin line."),
+            "fits": ["slozivi-rucnici-cc21v", "slozivi-rucnici-cc21vx"],
+            "check": "Model samo sa slike – provjeriti koje složive ručnike prima."},
+}
+
 SKIP = {"883": "Pogrešan artikl u popisu (držač za pelene, ne poklopac) – zamijenjen art. 580."}
 
 # Paper products the sheet marks as discontinued ("ukinut") -> hidden from the site.
 DISCONTINUED = {"CCAC80": "\"AC80 ukinut\" (red 884)", "CCSP46": "\"CCSP46 ukinut\" (red 935)"}
+
+
+def save_product_images(sku: str, slug: str) -> list[str]:
+    paths = []
+    for i, file in enumerate(IMAGES.get(sku, [])):
+        im = Image.open(IMAGE_DIR / file)
+        im.load()
+        im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
+        if im.mode == "RGBA" and im.getextrema()[3][0] == 255:
+            im = im.convert("RGB")
+        if sku == "885":  # photo on black background – flatten to white for the catalog
+            im = flatten_black(im)
+        im.thumbnail((1200, 1200), Image.LANCZOS)
+        name = f"{slug}{'' if i == 0 else '-' + str(i + 1)}.webp"
+        buf = io.BytesIO()
+        im.save(buf, "WEBP", quality=82, method=6)
+        dest = ROOT / "public" / "products" / name
+        if not dest.exists() or dest.read_bytes() != buf.getvalue():
+            dest.write_bytes(buf.getvalue())
+        paths.append(f"/products/{name}")
+    return paths
+
+
+def flatten_black(im: Image.Image) -> Image.Image:
+    """Replace the near-black background connected to the image border with white."""
+    from PIL import ImageDraw
+    rgb = im.convert("RGB")
+    w, h = rgb.size
+    for seed in [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)]:
+        if max(rgb.getpixel(seed)) < 30:
+            ImageDraw.floodfill(rgb, seed, (255, 255, 255), thresh=28)
+    return rgb
 
 
 def read_sheet(path: Path) -> list[dict]:
@@ -170,6 +261,8 @@ def read_sheet(path: Path) -> list[dict]:
 
 def main(path: Path) -> None:
     rows = read_sheet(path)
+    for sku in FROM_IMAGES:
+        rows.append({"sku": sku, "line": FROM_IMAGES[sku]["line"], "colors": "", "from_images": True})
     errors, log, products, edges = [], [], [], []
 
     for r in rows:
@@ -177,7 +270,7 @@ def main(path: Path) -> None:
         if sku in SKIP:
             log.append(f"preskočen art. {sku}: {SKIP[sku]}")
             continue
-        spec = MARPLAST.get(sku)
+        spec = FROM_IMAGES.get(sku) if r.get("from_images") else MARPLAST.get(sku)
         if not spec:
             errors.append(f"sheet row {sku} not curated")
             continue
@@ -196,6 +289,8 @@ def main(path: Path) -> None:
                 log.append(f"art. {sku}: boja \"{raw.strip()}\" preskočena (Skin linija: samo bijela/stone/carbon)")
             elif key not in colors:
                 colors.append(key)
+        if r.get("from_images"):
+            colors = list(spec["colors"])
 
         slug = slugify(f"marplast {sku} {spec['name']['hr'].replace('Marplast ', '').replace('Skin ', '').replace('Plus ', '')}")
         specs = [{"key": "manufacturer_code", "value": sku}]
@@ -213,7 +308,7 @@ def main(path: Path) -> None:
             "description": {"hr": [spec["desc"]["hr"]], "en": [spec["desc"]["en"]]},
             "specs": specs,
             "variants": [{"label": COLORS[c], "color": c, "size": None, "sku": None} for c in colors],
-            "images": [],
+            "images": save_product_images(sku, slug),
             "manufacturer_url": r.get("link") or None,
             "dispenser_type": spec.get("type"),
             "sort": 1000 + len(products),

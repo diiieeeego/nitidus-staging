@@ -75,6 +75,36 @@
     "note": null
   },
   {
+    "host": "marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor",
+    "fits": "rucnici-u-roli-ccac130",
+    "note": "check – Model samo sa slike (boja Sand) – provjeriti kompatibilnost role i dostupne boje."
+  },
+  {
+    "host": "marplast-911-dozator-sapuna-s-punjenjem",
+    "fits": "tekuci-sapun-za-ruke-5-l",
+    "note": "check – Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."
+  },
+  {
+    "host": "marplast-923-automatski-dozator-sapuna-za-uloske-senzor",
+    "fits": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+    "note": "check – Model samo sa slike (boja Sand) – provjeriti koji uložak prima i dostupne boje."
+  },
+  {
+    "host": "marplast-943-dozator-sapuna-s-punjenjem-i-polugom",
+    "fits": "tekuci-sapun-za-ruke-5-l",
+    "note": "check – Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."
+  },
+  {
+    "host": "marplast-949-dispenzer-za-slozive-rucnike-compact",
+    "fits": "slozivi-rucnici-cc21v",
+    "note": "check – Model samo sa slike – provjeriti koje složive ručnike prima."
+  },
+  {
+    "host": "marplast-949-dispenzer-za-slozive-rucnike-compact",
+    "fits": "slozivi-rucnici-cc21vx",
+    "note": "check – Model samo sa slike – provjeriti koje složive ručnike prima."
+  },
+  {
     "host": "drzac-mopa-sprint-plus-40-cm",
     "fits": "mop-sprint-plus-basic-40-cm",
     "note": "auto:format"

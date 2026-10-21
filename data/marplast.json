@@ -129,7 +129,10 @@
           "sku": null
         }
       ],
-      "images": [],
+      "images": [
+        "/products/marplast-901-dispenzer-za-slozive-rucnike-450-listica.webp",
+        "/products/marplast-901-dispenzer-za-slozive-rucnike-450-listica-2.webp"
+      ],
       "manufacturer_url": "https://www.marplast.it/prodotto/901-bianco/",
       "dispenser_type": "towel_zfold",
       "sort": 1001
@@ -598,7 +601,9 @@
           "sku": null
         }
       ],
-      "images": [],
+      "images": [
+        "/products/marplast-914-dozator-pjenastog-sapuna-0-5-0-8-l.webp"
+      ],
       "manufacturer_url": "https://www.marplast.it/prodotto/914-bianco/",
       "dispenser_type": "soap_foam",
       "sort": 1008
@@ -1104,6 +1109,241 @@
       "manufacturer_url": "https://www.marplast.it/prodotto/580-bianco/",
       "dispenser_type": null,
       "sort": 1016
+    },
+    {
+      "slug": "marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor",
+      "sku": "885",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin automatski dispenzer za ručnike u roli (senzor)",
+        "en": "Marplast Skin automatic roll towel dispenser (sensor)"
+      },
+      "short_description": {
+        "hr": "Beskontaktni dispenzer za papirnate ručnike u roli sa senzorom, linija Skin.",
+        "en": "Touch-free sensor paper towel roll dispenser, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Beskontaktni dispenzer za papirnate ručnike u roli sa senzorom, linija Skin."
+        ],
+        "en": [
+          "Touch-free sensor paper towel roll dispenser, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "885"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [],
+      "images": [
+        "/products/marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor.webp"
+      ],
+      "manufacturer_url": null,
+      "dispenser_type": "towel_autocut",
+      "sort": 1017
+    },
+    {
+      "slug": "marplast-911-dozator-sapuna-s-punjenjem",
+      "sku": "911",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dozator sapuna s punjenjem",
+        "en": "Marplast Skin refillable soap dispenser"
+      },
+      "short_description": {
+        "hr": "Dozator tekućeg sapuna koji se puni iz kanistra, linija Skin.",
+        "en": "Refillable liquid soap dispenser (topped up from a canister), Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dozator tekućeg sapuna koji se puni iz kanistra, linija Skin."
+        ],
+        "en": [
+          "Refillable liquid soap dispenser (topped up from a canister), Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "911"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "bijela",
+            "en": "white"
+          },
+          "color": "bijela",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [
+        "/products/marplast-911-dozator-sapuna-s-punjenjem.webp"
+      ],
+      "manufacturer_url": null,
+      "dispenser_type": "soap_bulk",
+      "sort": 1018
+    },
+    {
+      "slug": "marplast-923-automatski-dozator-sapuna-za-uloske-senzor",
+      "sku": "923",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin automatski dozator sapuna za uloške (senzor)",
+        "en": "Marplast Skin automatic cartridge soap dispenser (sensor)"
+      },
+      "short_description": {
+        "hr": "Beskontaktni dozator sapuna za uloške sa senzorom, linija Skin.",
+        "en": "Touch-free sensor soap dispenser for cartridges, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Beskontaktni dozator sapuna za uloške sa senzorom, linija Skin."
+        ],
+        "en": [
+          "Touch-free sensor soap dispenser for cartridges, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "923"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [],
+      "images": [
+        "/products/marplast-923-automatski-dozator-sapuna-za-uloske-senzor.webp"
+      ],
+      "manufacturer_url": null,
+      "dispenser_type": "soap_liquid",
+      "sort": 1019
+    },
+    {
+      "slug": "marplast-943-dozator-sapuna-s-punjenjem-i-polugom",
+      "sku": "943",
+      "category": "dozatori-sapuna",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dozator sapuna s punjenjem i polugom",
+        "en": "Marplast Skin refillable soap dispenser with lever"
+      },
+      "short_description": {
+        "hr": "Dozator tekućeg sapuna s polugom koji se puni iz kanistra, linija Skin.",
+        "en": "Lever-operated refillable liquid soap dispenser (topped up from a canister), Skin line."
+      },
+      "description": {
+        "hr": [
+          "Dozator tekućeg sapuna s polugom koji se puni iz kanistra, linija Skin."
+        ],
+        "en": [
+          "Lever-operated refillable liquid soap dispenser (topped up from a canister), Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "943"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [
+        "/products/marplast-943-dozator-sapuna-s-punjenjem-i-polugom.webp"
+      ],
+      "manufacturer_url": null,
+      "dispenser_type": "soap_bulk",
+      "sort": 1020
+    },
+    {
+      "slug": "marplast-949-dispenzer-za-slozive-rucnike-compact",
+      "sku": "949",
+      "category": "dispenzeri-rucnici",
+      "brand": "marplast",
+      "kind": "dispenser",
+      "is_active": true,
+      "name": {
+        "hr": "Marplast Skin dispenzer za složive ručnike – Compact",
+        "en": "Marplast Skin interfold towel dispenser – Compact"
+      },
+      "short_description": {
+        "hr": "Kompaktni dispenzer za složive papirnate ručnike, linija Skin.",
+        "en": "Compact dispenser for interfolded paper towels, Skin line."
+      },
+      "description": {
+        "hr": [
+          "Kompaktni dispenzer za složive papirnate ručnike, linija Skin."
+        ],
+        "en": [
+          "Compact dispenser for interfolded paper towels, Skin line."
+        ]
+      },
+      "specs": [
+        {
+          "key": "manufacturer_code",
+          "value": "949"
+        },
+        {
+          "key": "line",
+          "value": "Skin"
+        }
+      ],
+      "variants": [
+        {
+          "label": {
+            "hr": "carbon",
+            "en": "carbon"
+          },
+          "color": "carbon",
+          "size": null,
+          "sku": null
+        }
+      ],
+      "images": [
+        "/products/marplast-949-dispenzer-za-slozive-rucnike-compact.webp"
+      ],
+      "manufacturer_url": null,
+      "dispenser_type": "towel_vfold",
+      "sort": 1021
     }
   ],
   "compatibility": [
@@ -1181,6 +1421,36 @@
       "host": "marplast-664-zidni-nosac-za-kantu-579",
       "fits": "marplast-579-pravokutna-kanta-za-smece-8-l",
       "note": null
+    },
+    {
+      "host": "marplast-885-automatski-dispenzer-za-rucnike-u-roli-senzor",
+      "fits": "rucnici-u-roli-ccac130",
+      "note": "check – Model samo sa slike (boja Sand) – provjeriti kompatibilnost role i dostupne boje."
+    },
+    {
+      "host": "marplast-911-dozator-sapuna-s-punjenjem",
+      "fits": "tekuci-sapun-za-ruke-5-l",
+      "note": "check – Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."
+    },
+    {
+      "host": "marplast-923-automatski-dozator-sapuna-za-uloske-senzor",
+      "fits": "tekuci-sapun-za-ruke-za-drzace-0-5-l",
+      "note": "check – Model samo sa slike (boja Sand) – provjeriti koji uložak prima i dostupne boje."
+    },
+    {
+      "host": "marplast-943-dozator-sapuna-s-punjenjem-i-polugom",
+      "fits": "tekuci-sapun-za-ruke-5-l",
+      "note": "check – Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L."
+    },
+    {
+      "host": "marplast-949-dispenzer-za-slozive-rucnike-compact",
+      "fits": "slozivi-rucnici-cc21v",
+      "note": "check – Model samo sa slike – provjeriti koje složive ručnike prima."
+    },
+    {
+      "host": "marplast-949-dispenzer-za-slozive-rucnike-compact",
+      "fits": "slozivi-rucnici-cc21vx",
+      "note": "check – Model samo sa slike – provjeriti koje složive ručnike prima."
     }
   ],
   "discontinued": [

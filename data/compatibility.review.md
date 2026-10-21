@@ -23,6 +23,12 @@ Izvor: `docs/marplast_sifre.xlsx` (stupac "Interni artikl") + pravila za Vermop 
 | Marplast Plus dispenzer za industrijsku pastu 3 L (760) | Industrijska pasta za ruke 3 L | 🤖 pretpostavka | Dispenzer koristi Bag Volflex uložak – provjeriti odgovara li naša industrijska pasta 3 L. |
 | Marplast pravokutna kanta za smeće 8 L (579) | Marplast poklopac na preklop za kantu 579 (580) | ⚠️ provjeriti | Art. 580 predložen umjesto 883 (883 je držač za pelene, ne poklopac). |
 | Marplast zidni nosač za kantu 579 (664) | Marplast pravokutna kanta za smeće 8 L (579) | ✅ potvrđeno (tvoj popis) |  |
+| Marplast Skin automatski dispenzer za ručnike u roli (senzor) (885) | Papirnati ručnici u roli Autocut 130 m, 2-slojni (CCAC130) | ⚠️ provjeriti | Model samo sa slike (boja Sand) – provjeriti kompatibilnost role i dostupne boje. |
+| Marplast Skin dozator sapuna s punjenjem (911) | Tekući sapun za ruke 5 L | ⚠️ provjeriti | Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L. |
+| Marplast Skin automatski dozator sapuna za uloške (senzor) (923) | Tekući sapun za ruke za držače 0,5 L | ⚠️ provjeriti | Model samo sa slike (boja Sand) – provjeriti koji uložak prima i dostupne boje. |
+| Marplast Skin dozator sapuna s punjenjem i polugom (943) | Tekući sapun za ruke 5 L | ⚠️ provjeriti | Model samo sa slike – pretpostavka: puni se tekućim sapunom 5 L. |
+| Marplast Skin dispenzer za složive ručnike – Compact (949) | Složivi papirnati ručnici V, 2-slojni, 200 listića (CC21V) | ⚠️ provjeriti | Model samo sa slike – provjeriti koje složive ručnike prima. |
+| Marplast Skin dispenzer za složive ručnike – Compact (949) | Složivi papirnati ručnici V, 2-slojni, 250 listića (CC21VX) | ⚠️ provjeriti | Model samo sa slike – provjeriti koje složive ručnike prima. |
 | Držač mopa Sprint Plus 40 cm | Mop Sprint Plus Basic 40 cm | 🤖 pretpostavka |  |
 | Držač mopa Sprint Plus 40 cm | Mop Sprint Brush Progressive 40 cm | 🤖 pretpostavka |  |
 | Držač mopa Sprint Plus 40 cm | Mop Sprint Plus Tronic 40 cm | 🤖 pretpostavka |  |
@@ -65,15 +71,20 @@ Izvor: `docs/marplast_sifre.xlsx` (stupac "Interni artikl") + pravila za Vermop 
 
 `docs/udarni.txt` ne postoji → privremeno: Marplast dispenzeri + po jedan ključni potrošni artikl po tipu.
 
-- Marplast Skin dispenzer za složive ručnike – 750 listića (903)
 - Marplast Skin dispenzer za složive ručnike – 450 listića (901)
+- Marplast Skin dozator pjenastog sapuna 0,5/0,8 L (914)
+- Marplast Skin automatski dispenzer za ručnike u roli (senzor) (885)
+- Marplast Skin dozator sapuna s punjenjem (911)
+- Marplast Skin automatski dozator sapuna za uloške (senzor) (923)
+- Marplast Skin dozator sapuna s punjenjem i polugom (943)
+- Marplast Skin dispenzer za složive ručnike – Compact (949)
+- Marplast Skin dispenzer za složive ručnike – 750 listića (903)
 - Marplast Skin dispenzer za ručnike u roli s automatskim rezanjem (884)
 - Marplast Skin dispenzer za centralno izvlačenje – Maxi (935)
 - Marplast Skin dispenzer za centralno izvlačenje – Mini (932)
 - Marplast Skin dispenzer za toaletni papir u listićima (909)
 - Marplast Skin držač toaletnog papira Midi Jumbo (907)
 - Marplast Skin držač toaletnog papira Maxi Jumbo (908)
-- Marplast Skin dozator pjenastog sapuna 0,5/0,8 L (914)
 - Marplast Skin dozator tekućeg sapuna 0,5 L (912)
 - Marplast Plus dispenzer za industrijsku pastu 3 L (760)
 - Složivi papirnati ručnici V, 2-slojni, 200 listića (CC21V)
